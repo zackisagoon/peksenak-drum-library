@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="pdl_snare2" SaveMode="2" FileName="" MicPositions="bleed;bottom;overhead;room;top;"
+           RRGroupAmount="7.0" CrossfadeGamma="1.0">
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="7"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="0" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_C#2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_C#2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_C#2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_C#2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_C#2_rr07.wav"/>
+  </sample>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="6"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="40960" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_C#2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_C#2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_C#2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_C#2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_C#2_rr06.wav"/>
+  </sample>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="5"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="81920" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_C#2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_C#2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_C#2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_C#2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_C#2_rr05.wav"/>
+  </sample>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="4"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="122880" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_C#2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_C#2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_C#2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_C#2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_C#2_rr04.wav"/>
+  </sample>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="163840" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_C#2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_C#2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_C#2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_C#2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_C#2_rr03.wav"/>
+  </sample>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="204800" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_C#2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_C#2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_C#2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_C#2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_C#2_rr02.wav"/>
+  </sample>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="245760" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_C#2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_C#2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_C#2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_C#2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_C#2_rr01.wav"/>
+  </sample>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="5"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="286720" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_D#2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_D#2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_D#2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_D#2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_D#2_rr05.wav"/>
+  </sample>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="7"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="364544" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_D#2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_D#2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_D#2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_D#2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_D#2_rr07.wav"/>
+  </sample>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="4"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="442368" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_D#2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_D#2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_D#2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_D#2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_D#2_rr04.wav"/>
+  </sample>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="520192" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_D#2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_D#2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_D#2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_D#2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_D#2_rr03.wav"/>
+  </sample>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="598016" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_D#2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_D#2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_D#2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_D#2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_D#2_rr02.wav"/>
+  </sample>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="6"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="675840" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_D#2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_D#2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_D#2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_D#2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_D#2_rr06.wav"/>
+  </sample>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="753664" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_D#2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_D#2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_D#2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_D#2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_D#2_rr01.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="7"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="831488" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_E2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_E2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_E2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_E2_rr07.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_E2_rr07.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="6"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="909312" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_E2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_E2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_E2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_E2_rr06.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_E2_rr06.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="5"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="987136" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_E2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_E2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_E2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_E2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_E2_rr05.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="4"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="1064960" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_E2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_E2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_E2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_E2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_E2_rr04.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="1142784" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_E2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_E2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_E2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_E2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_E2_rr03.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="1220608" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_E2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_E2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_E2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_E2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_E2_rr02.wav"/>
+  </sample>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="76800" MonolithOffset="1298432" MonolithLength="77824"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bleed_E2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_bottom_E2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_overhead_E2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_room_E2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_snare_top_E2_rr01.wav"/>
+  </sample>
+</samplemap>

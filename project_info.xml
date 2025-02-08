@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProjectSettings>
+  <Name value="Peksenak Drum Library"/>
+  <Version value="1.0.0"/>
+  <Description value=""/>
+  <BundleIdentifier value="com.myCompany.product"/>
+  <PluginCode value="Abcd"/>
+  <EmbedAudioFiles value="0"/>
+  <EmbedImageFiles value="0"/>
+  <SupportFullDynamicsHLAC value="1"/>
+  <AdditionalDspLibraries value=""/>
+  <OSXStaticLibs value=""/>
+  <WindowsStaticLibFolder value=""/>
+  <ExtraDefinitionsWindows value="ENABLE_ALL_PEAK_METERS=1&#10;HISE_NUM_PLUGIN_CHANNELS=22&#10;HISE_SAMPLE_DIALOG_SHOW_INSTALL_BUTTON=1&#10;HISE_SAMPLE_DIALOG_SHOW_LOCATE_BUTTON=0&#10;HISE_DEACTIVATE_OVERLAY=1"/>
+  <ExtraDefinitionsOSX value="ENABLE_ALL_PEAK_METERS=1&#10;HISE_NUM_PLUGIN_CHANNELS=22&#10;HISE_SAMPLE_DIALOG_SHOW_INSTALL_BUTTON=1&#10;HISE_SAMPLE_DIALOG_SHOW_LOCATE_BUTTON=0&#10;HISE_DEACTIVATE_OVERLAY=1"/>
+  <ExtraDefinitionsIOS value="ENABLE_ALL_PEAK_METERS=1&#10;HISE_NUM_PLUGIN_CHANNELS=22&#10;HISE_SAMPLE_DIALOG_SHOW_INSTALL_BUTTON=1&#10;HISE_SAMPLE_DIALOG_SHOW_LOCATE_BUTTON=0&#10;HISE_DEACTIVATE_OVERLAY=1"/>
+  <ExtraDefinitionsLinux value="ENABLE_ALL_PEAK_METERS=1&#10;HISE_NUM_PLUGIN_CHANNELS=22&#10;HISE_SAMPLE_DIALOG_SHOW_INSTALL_BUTTON=1&#10;HISE_SAMPLE_DIALOG_SHOW_LOCATE_BUTTON=0&#10;HISE_DEACTIVATE_OVERLAY=1"/>
+  <ExtraDefinitionsNetworkDll value=""/>
+  <AppGroupID value=""/>
+  <RedirectSampleFolder value=""/>
+  <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
+  <VST3Category value="Sampler"/>
+  <SupportMonoFX value="No"/>
+  <EnableMidiInputFX value="No"/>
+  <EnableMidiOut value="No"/>
+  <EnableSoundGeneratorsFX value="No"/>
+  <VST3Support value="1"/>
+  <UseRawFrontend value="No"/>
+  <ExpansionType value="Disabled"/>
+  <EncryptionKey value=""/>
+  <LinkExpansionsToProject value="No"/>
+  <ReadOnlyFactoryPresets value="No"/>
+  <ForceStereoOutput value="No"/>
+  <AdminPermissions value="No"/>
+  <EmbedUserPresets value="Yes"/>
+  <OverwriteOldUserPresets value="No"/>
+  <EnableGlobalPreprocessor value="1"/>
+  <UseGlobalAppDataFolderWindows value="0"/>
+  <UseGlobalAppDataFolderMacOS value="0"/>
+  <DefaultUserPreset value=""/>
+  <CompileWithPerfetto value="No"/>
+  <CompileWithDebugSymbols value="No"/>
+  <IncludeLorisInFrontend value="No"/>
+</ProjectSettings>

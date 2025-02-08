@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="pdl_rack" SaveMode="2" FileName="" MicPositions="bleed;direct;overhead;room;"
+           RRGroupAmount="5.0" CrossfadeGamma="1.0">
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="115200" MonolithOffset="0" MonolithLength="118784"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_rack_bleed_A2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_direct_A2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_overhead_A2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_room_A2_rr02.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="115200" MonolithOffset="118784" MonolithLength="118784"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_rack_bleed_A2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_direct_A2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_overhead_A2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_room_A2_rr01.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="5"
+          Duplicate="1" SampleEnd="115200" MonolithOffset="237568" MonolithLength="118784"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_rack_bleed_A2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_direct_A2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_overhead_A2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_room_A2_rr05.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="4"
+          Duplicate="1" SampleEnd="115200" MonolithOffset="356352" MonolithLength="118784"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_rack_bleed_A2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_direct_A2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_overhead_A2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_room_A2_rr04.wav"/>
+  </sample>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="115200" MonolithOffset="475136" MonolithLength="118784"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_rack_bleed_A2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_direct_A2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_overhead_A2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_rack_room_A2_rr03.wav"/>
+  </sample>
+</samplemap>

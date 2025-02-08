@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="pdl_floor" SaveMode="2" FileName="" MicPositions="bleed;direct;overhead;room;"
+           RRGroupAmount="5.0" CrossfadeGamma="1.0">
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="63" RRGroup="5"
+          Duplicate="1" SampleEnd="48000" MonolithOffset="0" MonolithLength="49152"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn2_G2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn2_G2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn2_G2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn2_G2_rr05.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="63" RRGroup="4"
+          Duplicate="1" SampleEnd="48000" MonolithOffset="49152" MonolithLength="49152"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn2_G2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn2_G2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn2_G2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn2_G2_rr04.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="63" RRGroup="3"
+          Duplicate="1" SampleEnd="48000" MonolithOffset="98304" MonolithLength="49152"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn2_G2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn2_G2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn2_G2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn2_G2_rr03.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="63" RRGroup="2"
+          Duplicate="1" SampleEnd="48000" MonolithOffset="147456" MonolithLength="49152"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn2_G2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn2_G2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn2_G2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn2_G2_rr02.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="63" RRGroup="1"
+          Duplicate="1" SampleEnd="48000" MonolithOffset="196608" MonolithLength="49152"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn2_G2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn2_G2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn2_G2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn2_G2_rr01.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="64" HiVel="127" RRGroup="5"
+          Duplicate="1" SampleEnd="96000" MonolithOffset="245760" MonolithLength="98304"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn3_G2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn3_G2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn3_G2_rr05.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn3_G2_rr05.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="64" HiVel="127" RRGroup="4"
+          Duplicate="1" SampleEnd="96000" MonolithOffset="344064" MonolithLength="98304"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn3_G2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn3_G2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn3_G2_rr04.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn3_G2_rr04.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="64" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="96000" MonolithOffset="442368" MonolithLength="98304"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn3_G2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn3_G2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn3_G2_rr03.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn3_G2_rr03.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="64" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="96000" MonolithOffset="540672" MonolithLength="98304"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn3_G2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn3_G2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn3_G2_rr02.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn3_G2_rr02.wav"/>
+  </sample>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="64" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="96000" MonolithOffset="638976" MonolithLength="98304"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_floor_bleed_dyn3_G2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_direct_dyn3_G2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_overhead_dyn3_G2_rr01.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_floor_room_dyn3_G2_rr01.wav"/>
+  </sample>
+</samplemap>

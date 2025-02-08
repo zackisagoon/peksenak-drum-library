@@ -1,0 +1,2445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="PeksenakDrumLibrary" Bypassed="0" Gain="1.0"
+           Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0"
+           packageName="" BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptComboBox" id="ComboBox0" value="1.0"/>
+            <Control type="ScriptComboBox" id="ComboBox1" value="2.0"/>
+            <Control type="ScriptComboBox" id="ComboBox2" value="3.0"/>
+            <Control type="ScriptComboBox" id="ComboBox3" value="4.0"/>
+            <Control type="ScriptComboBox" id="ComboBox4" value="5.0"/>
+            <Control type="ScriptComboBox" id="ComboBox5" value="6.0"/>
+            <Control type="ScriptComboBox" id="ComboBox6" value="7.0"/>
+            <Control type="ScriptComboBox" id="ComboBox7" value="8.0"/>
+            <Control type="ScriptComboBox" id="ComboBox8" value="9.0"/>
+            <Control type="ScriptComboBox" id="ComboBox9" value="10.0"/>
+            <Control type="ScriptComboBox" id="ComboBox10" value="11.0"/>
+            <Control type="ScriptButton" id="Mute0" value="0.0"/>
+            <Control type="ScriptButton" id="Mute1" value="0.0"/>
+            <Control type="ScriptButton" id="Mute2" value="0.0"/>
+            <Control type="ScriptButton" id="Mute3" value="0.0"/>
+            <Control type="ScriptButton" id="Mute4" value="0.0"/>
+            <Control type="ScriptButton" id="Mute5" value="0.0"/>
+            <Control type="ScriptButton" id="Mute6" value="0.0"/>
+            <Control type="ScriptButton" id="Mute7" value="0.0"/>
+            <Control type="ScriptButton" id="Mute8" value="0.0"/>
+            <Control type="ScriptButton" id="Mute9" value="0.0"/>
+            <Control type="ScriptButton" id="Mute10" value="0.0"/>
+            <Control type="ScriptButton" id="Solo0" value="0.0"/>
+            <Control type="ScriptButton" id="Solo1" value="0.0"/>
+            <Control type="ScriptButton" id="Solo2" value="0.0"/>
+            <Control type="ScriptButton" id="Solo3" value="0.0"/>
+            <Control type="ScriptButton" id="Solo4" value="0.0"/>
+            <Control type="ScriptButton" id="Solo5" value="0.0"/>
+            <Control type="ScriptButton" id="Solo6" value="0.0"/>
+            <Control type="ScriptButton" id="Solo7" value="0.0"/>
+            <Control type="ScriptButton" id="Solo8" value="0.0"/>
+            <Control type="ScriptButton" id="Solo9" value="0.0"/>
+            <Control type="ScriptButton" id="Solo10" value="0.0"/>
+            <Control type="ScriptButton" id="Mix0" value="0"/>
+            <Control type="ScriptButton" id="Mix1" value="0"/>
+            <Control type="ScriptButton" id="Mix2" value="0"/>
+            <Control type="ScriptButton" id="Mix3" value="0"/>
+            <Control type="ScriptButton" id="Mix4" value="0"/>
+            <Control type="ScriptButton" id="Mix5" value="0"/>
+            <Control type="ScriptButton" id="Mix6" value="0"/>
+            <Control type="ScriptButton" id="Mix7" value="0"/>
+            <Control type="ScriptSlider" id="Pan0" value="0.0"/>
+            <Control type="ScriptSlider" id="Pan1" value="0.0"/>
+            <Control type="ScriptSlider" id="Pan2" value="-100.0"/>
+            <Control type="ScriptSlider" id="Pan3" value="100.0"/>
+            <Control type="ScriptSlider" id="Pan4" value="-100.0"/>
+            <Control type="ScriptSlider" id="Pan5" value="100.0"/>
+            <Control type="ScriptSlider" id="Vol0" value="0.0"/>
+            <Control type="ScriptSlider" id="Vol1" value="4.76837158203125e-7"/>
+            <Control type="ScriptSlider" id="Vol2" value="-3.999999523162842"/>
+            <Control type="ScriptSlider" id="Vol3" value="-4.399999618530273"/>
+            <Control type="ScriptSlider" id="Vol4" value="-11.79999923706055"/>
+            <Control type="ScriptSlider" id="Vol5" value="-6.09999942779541"/>
+            <Control type="ScriptSlider" id="Vol6" value="0.0"/>
+            <Control type="ScriptSlider" id="Vol7" value="4.76837158203125e-7"/>
+            <Control type="ScriptSlider" id="Vol8" value="-8.899999618530273"/>
+            <Control type="ScriptSlider" id="Vol9" value="0.0"/>
+            <Control type="ScriptSlider" id="Vol10" value="24.0"/>
+            <Control type="ScriptButton" id="VMute0" value="0.0"/>
+            <Control type="ScriptButton" id="VMute1" value="0.0"/>
+            <Control type="ScriptButton" id="VMute2" value="0.0"/>
+            <Control type="ScriptButton" id="VMute3" value="0.0"/>
+            <Control type="ScriptButton" id="VMute4" value="0.0"/>
+            <Control type="ScriptButton" id="VMute5" value="0.0"/>
+            <Control type="ScriptButton" id="VMute6" value="0.0"/>
+            <Control type="ScriptButton" id="VMute7" value="0.0"/>
+            <Control type="ScriptButton" id="VMute8" value="0.0"/>
+            <Control type="ScriptButton" id="VMute9" value="0.0"/>
+            <Control type="ScriptSlider" id="VVol0" value="-8.999999046325684"/>
+            <Control type="ScriptSlider" id="VVol1" value="-5.999998569488525"/>
+            <Control type="ScriptSlider" id="VVol2" value="-8.999999046325684"/>
+            <Control type="ScriptSlider" id="VVol3" value="-8.999999046325684"/>
+            <Control type="ScriptSlider" id="VVol4" value="-8.999999046325684"/>
+            <Control type="ScriptSlider" id="VVol5" value="-8.999999046325684"/>
+            <Control type="ScriptSlider" id="VVol6" value="-5.999998569488525"/>
+            <Control type="ScriptSlider" id="VVol7" value="-8.999999046325684"/>
+            <Control type="ScriptSlider" id="VVol8" value="-8.999999046325684"/>
+            <Control type="ScriptSlider" id="VVol9" value="-3.999998569488525"/>
+            <Control type="ScriptButton" id="ResizeButton" value="0.0"/>
+            <Control type="ScriptButton" id="Mix8" value="0"/>
+            <Control type="ScriptButton" id="Mix9" value="0"/>
+            <Control type="ScriptSlider" id="KickOvh" value="4.76837158203125e-7"/>
+            <Control type="ScriptSlider" id="KickRom" value="0.0"/>
+            <Control type="ScriptSlider" id="KickBld" value="0.0"/>
+            <Control type="ScriptSlider" id="RideOvh" value="0.0"/>
+            <Control type="ScriptSlider" id="RideRom" value="0.0"/>
+            <Control type="ScriptSlider" id="RideBld" value="0.0"/>
+            <Control type="ScriptSlider" id="RackOvh" value="0.0"/>
+            <Control type="ScriptSlider" id="RackRom" value="0.0"/>
+            <Control type="ScriptSlider" id="RackBld" value="0.0"/>
+            <Control type="ScriptSlider" id="FloorOvh" value="0.0"/>
+            <Control type="ScriptSlider" id="FloorRom" value="0.0"/>
+            <Control type="ScriptSlider" id="FloorBld" value="0.0"/>
+            <Control type="ScriptSlider" id="HatsOvh" value="0.0"/>
+            <Control type="ScriptSlider" id="HatsRom" value="0.0"/>
+            <Control type="ScriptSlider" id="HatsBld" value="0.0"/>
+            <Control type="ScriptSlider" id="SnarTop" value="4.76837158203125e-7"/>
+            <Control type="ScriptSlider" id="SnarBot" value="4.76837158203125e-7"/>
+            <Control type="ScriptSlider" id="SnarOvh" value="4.76837158203125e-7"/>
+            <Control type="ScriptSlider" id="SnarRom" value="4.76837158203125e-7"/>
+            <Control type="ScriptSlider" id="SnarBld" value="4.76837158203125e-7"/>
+            <Control type="ScriptSlider" id="StkL" value="0.0"/>
+            <Control type="ScriptSlider" id="StkR" value="0.0"/>
+            <Control type="ScriptSlider" id="SplL" value="0.0"/>
+            <Control type="ScriptSlider" id="SplR" value="0.0"/>
+            <Control type="ScriptSlider" id="Chna" value="0.0"/>
+            <Control type="ScriptSlider" id="Aux1" value="0.0"/>
+            <Control type="ScriptSlider" id="Aux2" value="0.0"/>
+            <Control type="ScriptSlider" id="CdirOvh" value="0.0"/>
+            <Control type="ScriptSlider" id="CdirRom" value="0.0"/>
+            <Control type="ScriptSlider" id="CdirBld" value="0.0"/>
+            <Control type="ScriptSlider" id="SklPan" value="-100.0"/>
+            <Control type="ScriptSlider" id="SkrPan" value="100.0"/>
+            <Control type="ScriptSlider" id="SplPan" value="-100.0"/>
+            <Control type="ScriptSlider" id="SprPan" value="100.0"/>
+            <Control type="ScriptSlider" id="ChnPan" value="100.0"/>
+            <Control type="ScriptSlider" id="Ax1Pan" value="-100.0"/>
+            <Control type="ScriptSlider" id="Ax2Pan" value="-100.0"/>
+            <Control type="ScriptSlider" id="Clav" value="0.0"/>
+            <Control type="ScriptSlider" id="Bong" value="0.0"/>
+            <Control type="ScriptSlider" id="Tri" value="0.0"/>
+            <Control type="ScriptSlider" id="PercOvh" value="0.0"/>
+            <Control type="ScriptSlider" id="PercRom" value="0.0"/>
+            <Control type="ScriptSlider" id="PercBld" value="0.0"/>
+            <Control type="ScriptSlider" id="ClavPan" value="0.0"/>
+            <Control type="ScriptSlider" id="BongPan" value="0.0"/>
+            <Control type="ScriptSlider" id="TriPan" value="0.0"/>
+            <Control type="ScriptSlider" id="VVol10" value="0.0"/>
+            <Control type="ScriptButton" id="VMute10" value="0.0"/>
+            <Control type="ScriptButton" id="ConvSelect" value="1.0"/>
+          </Content>
+          <UIData Source="PeksenakDrumLibraryUIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="SendFX" ID="KickVrb" Bypassed="0" Gain="-8.999999046325684"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                         Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                         Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                         Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="SnrAVrb" Bypassed="0" Gain="-5.999998569488525"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                         Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                         Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="RackVrb" Bypassed="0" Gain="-8.999999046325684"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="FlorVrb" Bypassed="0" Gain="-8.999999046325684"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="6"
+                         Send6="-1" Channel7="7" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="HatsVrb" Bypassed="0" Gain="-8.999999046325684"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="8" Send8="-1" Channel9="9"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="RideVrb" Bypassed="0" Gain="-8.999999046325684"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="10" Send10="-1" Channel11="11"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="OvhbVrb" Bypassed="0" Gain="-5.999998569488525"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="12" Send12="-1" Channel13="13" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="RoomVrb" Bypassed="0" Gain="-8.999999046325684"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="14" Send14="-1" Channel15="15" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="SpotVrb" Bypassed="0" Gain="-8.999999046325684"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="16"
+                         Send16="-1" Channel17="17" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="PercVrb" Bypassed="0" Gain="-3.999998807907104"
+                   ChannelOffset="0.0" SendIndex="2.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="18" Send18="-1"
+                         Channel19="19" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="SnrAVol" Bypassed="0" Gain="0.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                         Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                         Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="OvhBVol" Bypassed="0" Gain="0.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="12" Send12="-1" Channel13="13" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="RoomVol" Bypassed="0" Gain="0.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="14" Send14="-1" Channel15="15" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="SpotVol" Bypassed="0" Gain="-8.899999618530273"
+                   Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="16"
+                         Send16="-1" Channel17="17" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="PercVol" Bypassed="0" Gain="0.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="18" Send18="-1"
+                         Channel19="19" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="KickMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                         Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                         Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                         Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="SnrAMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                         Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                         Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="RackMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="FlorMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="6"
+                         Send6="-1" Channel7="7" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="HatsMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="8" Send8="-1" Channel9="9"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="RideMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="10" Send10="-1" Channel11="11"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="OvhbMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="12" Send12="-1" Channel13="13" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="RoomMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="14" Send14="-1" Channel15="15" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="SpotMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="16"
+                         Send16="-1" Channel17="17" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="PercMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="18" Send18="-1"
+                         Channel19="19" Send19="-1" Channel20="-1" Send20="-1" Channel21="-1"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SendFX" ID="VerbMtr" Bypassed="0" Gain="0.0" ChannelOffset="0.0"
+                   SendIndex="1.0" Smoothing="1.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Send Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                         Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                         Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                         Channel19="-1" Send19="-1" Channel20="20" Send20="-1" Channel21="21"
+                         Send21="-1" Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="blankVrb" Bypassed="1" Gain="0.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="24" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                         Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                         Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                         Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                         Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                         Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                         Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                         Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                         Send19="-1" Channel20="-1" Send20="-1" Channel21="-1" Send21="-1"
+                         Channel22="-1" Send22="-1" Channel23="-1" Send23="-1"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="SendContainer" ID="Master Meter" Bypassed="0" Gain="1.0"
+               Balance="1.0" VoiceLimit="1.0" KillFadeTime="1.0" IconColour="0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="SimpleGain" ID="MeterListen" Bypassed="0" Gain="0.0" Delay="0.0"
+                       Width="100.0" Balance="0.0" InvertPolarity="0.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="22" Send0="-1" Channel1="23"
+                     Send1="-1"/>
+    </Processor>
+    <Processor Type="SendContainer" ID="ReverbSend" Bypassed="0" Gain="1.0"
+               Balance="1.0" VoiceLimit="1.0" KillFadeTime="1.0" IconColour="0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors>
+            <Processor Type="Convolution" ID="Convolution Reverb1" Bypassed="0" DryGain="-100.0"
+                       WetGain="0.0" Latency="0.0" ImpulseLength="1.0" ProcessInput="1.0"
+                       UseBackgroundThread="0.0" Predelay="0.0" HiCut="20000.0" Damping="0.0"
+                       FFTType="5.0" FileName="{PROJECT_FOLDER}KitchenBackward.wav"
+                       min="0" max="1063803" loopStart="0" loopEnd="1063803">
+              <ChildProcessors/>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+            <Processor Type="RouteFX" ID="Routing Matrix1" Bypassed="0">
+              <ChildProcessors/>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+            <Processor Type="SimpleGain" ID="VerbVol" Bypassed="0" Gain="24.0" Delay="0.0"
+                       Width="100.0" Balance="0.0" InvertPolarity="0.0">
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+            <Processor Type="Dynamics" ID="Dynamics1" Bypassed="0" GateEnabled="1.0"
+                       GateThreshold="-50.0" GateAttack="0.009999999776482582" GateRelease="35.0"
+                       CompressorEnabled="0.0" CompressorThreshold="0.0" CompressorRatio="1.0"
+                       CompressorAttack="10.0" CompressorRelease="100.0" LimiterEnabled="0.0"
+                       LimiterThreshold="-0.300000011920929" LimiterAttack="1.0" LimiterRelease="10.0"
+                       CompressorMakeup="0.0" LimiterMakeup="1.0">
+              <ChildProcessors/>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="20" Send0="-1" Channel1="21"
+                     Send1="-1"/>
+    </Processor>
+    <Processor Type="SynthChain" ID="SubMixer" Bypassed="0" Gain="1.0" Balance="0.0"
+               VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0">
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="StreamingSampler" ID="Kick" Bypassed="0" Gain="1.0" Balance="0.0"
+                   VoiceLimit="4.0" KillFadeTime="20.0" IconColour="0" PreloadSize="8192.0"
+                   BufferSize="4096.0" VoiceAmount="4.0" SamplerRepeatMode="3.0"
+                   RRGroupAmount="14.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                   Purged="0.0" Reversed="0.0" NumChannels="4" UseStaticMatrix="0.0"
+                   Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                   Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_kick">
+          <ChildProcessors>
+            <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors>
+                <Processor Type="SimpleEnvelope" ID="Simple Envelope1" Bypassed="0" Monophonic="0.0"
+                           Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="10.0" LinearMode="1.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                               Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="Velocity" ID="Velocity Modulator1" Bypassed="0" Intensity="1.0"
+                           UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="36..........5C...vOcxGM+PDQj8C...vO...f+....9C...vO">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="EffectChain" ID="FX" Bypassed="0">
+              <ChildProcessors>
+                <Processor Type="SimpleGain" ID="KickDir" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="KickOvh" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="KickRom" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="6"
+                                 Send6="-1" Channel7="7" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="KickBld" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="8" Channel0="18" Send0="-1" Channel1="19"
+                         Send1="-1" Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="14"
+                         Send4="-1" Channel5="15" Send5="-1" Channel6="16" Send6="-1"
+                         Channel7="17" Send7="-1"/>
+          <channels>
+            <channelData enabled="1" level="0.0" suffix="bleed"/>
+            <channelData enabled="1" level="0.0" suffix="direct"/>
+            <channelData enabled="1" level="0.0" suffix="overhead"/>
+            <channelData enabled="1" level="0.0" suffix="room"/>
+          </channels>
+        </Processor>
+        <Processor Type="SynthChain" ID="Snare" Bypassed="0" Gain="1.0" Balance="0.0"
+                   VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0">
+          <ChildProcessors>
+            <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="EffectChain" ID="FX" Bypassed="0">
+              <ChildProcessors>
+                <Processor Type="SimpleGain" ID="SnareTop" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                                 Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                                 Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                                 Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                                 Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                                 Send19="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="SnareBot" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                 Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                 Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                                 Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                                 Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                                 Channel19="-1" Send19="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="SnareOvh" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                 Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                 Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                                 Channel14="14" Send14="-1" Channel15="15" Send15="-1" Channel16="-1"
+                                 Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                                 Channel19="-1" Send19="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="SnareRom" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                 Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                 Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                                 Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="16"
+                                 Send16="-1" Channel17="17" Send17="-1" Channel18="-1" Send18="-1"
+                                 Channel19="-1" Send19="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="SnareBld" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                 Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                 Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                                 Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                                 Send16="-1" Channel17="-1" Send17="-1" Channel18="18" Send18="-1"
+                                 Channel19="19" Send19="-1"/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="StreamingSampler" ID="Snare1" Bypassed="0" Gain="1.0" Balance="0.0"
+                       VoiceLimit="4.0" KillFadeTime="20.0" IconColour="0" PreloadSize="8192.0"
+                       BufferSize="4096.0" VoiceAmount="4.0" SamplerRepeatMode="3.0"
+                       RRGroupAmount="7.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                       Purged="0.0" Reversed="0.0" NumChannels="5" UseStaticMatrix="0.0"
+                       Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                       Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_snare1">
+              <ChildProcessors>
+                <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors>
+                    <Processor Type="SimpleEnvelope" ID="DefaultEnvelope2" Bypassed="0" Monophonic="0.0"
+                               Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="10.0" LinearMode="1.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                                   Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                    </Processor>
+                    <Processor Type="Velocity" ID="Velocity Modulator2" Bypassed="1" Intensity="1.0"
+                               UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="60..........5C...vOp+TJ+nYlY8C...vOp+TJ+DQDQ8C...vO8mRM+7t6N8C...vO...f+....9C...vO">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="EffectChain" ID="FX" Bypassed="0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="10" Channel0="18" Send0="-1" Channel1="19"
+                             Send1="-1" Channel2="4" Send2="-1" Channel3="5" Send3="-1" Channel4="14"
+                             Send4="-1" Channel5="15" Send5="-1" Channel6="16" Send6="-1"
+                             Channel7="17" Send7="-1" Channel8="2" Send8="-1" Channel9="3"
+                             Send9="-1"/>
+              <channels>
+                <channelData enabled="1" level="0.0" suffix="bleed"/>
+                <channelData enabled="1" level="0.0" suffix="bottom"/>
+                <channelData enabled="1" level="0.0" suffix="overhead"/>
+                <channelData enabled="1" level="0.0" suffix="room"/>
+                <channelData enabled="1" level="0.0" suffix="top"/>
+              </channels>
+            </Processor>
+            <Processor Type="StreamingSampler" ID="Snare2" Bypassed="0" Gain="1.0" Balance="0.0"
+                       VoiceLimit="4.0" KillFadeTime="20.0" IconColour="0" PreloadSize="8192.0"
+                       BufferSize="4096.0" VoiceAmount="4.0" SamplerRepeatMode="3.0"
+                       RRGroupAmount="7.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                       Purged="0.0" Reversed="0.0" NumChannels="5" UseStaticMatrix="0.0"
+                       Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                       Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_snare2">
+              <ChildProcessors>
+                <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors>
+                    <Processor Type="SimpleEnvelope" ID="DefaultEnvelope3" Bypassed="0" Monophonic="0.0"
+                               Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="10.0" LinearMode="1.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                                   Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                    </Processor>
+                    <Processor Type="Velocity" ID="Velocity Modulator3" Bypassed="0" Intensity="1.0"
+                               UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="24..........5C...vO...f+....9C...vO">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="EffectChain" ID="FX" Bypassed="0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="10" Channel0="18" Send0="-1" Channel1="19"
+                             Send1="-1" Channel2="4" Send2="-1" Channel3="5" Send3="-1" Channel4="14"
+                             Send4="-1" Channel5="15" Send5="-1" Channel6="16" Send6="-1"
+                             Channel7="17" Send7="-1" Channel8="2" Send8="-1" Channel9="3"
+                             Send9="-1"/>
+              <channels>
+                <channelData enabled="1" level="0.0" suffix="bleed"/>
+                <channelData enabled="1" level="0.0" suffix="bottom"/>
+                <channelData enabled="1" level="0.0" suffix="overhead"/>
+                <channelData enabled="1" level="0.0" suffix="room"/>
+                <channelData enabled="1" level="0.0" suffix="top"/>
+              </channels>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
+                         Send4="-1" Channel5="5" Send5="-1" Channel6="-1" Send6="-1" Channel7="-1"
+                         Send7="-1" Channel8="-1" Send8="-1" Channel9="-1" Send9="-1"
+                         Channel10="-1" Send10="-1" Channel11="-1" Send11="-1" Channel12="-1"
+                         Send12="-1" Channel13="-1" Send13="-1" Channel14="14" Send14="-1"
+                         Channel15="15" Send15="-1" Channel16="16" Send16="-1" Channel17="17"
+                         Send17="-1" Channel18="18" Send18="-1" Channel19="19" Send19="-1"/>
+        </Processor>
+        <Processor Type="StreamingSampler" ID="Rack" Bypassed="0" Gain="1.0" Balance="0.0"
+                   VoiceLimit="4.0" KillFadeTime="20.0" IconColour="0" PreloadSize="8192.0"
+                   BufferSize="4096.0" VoiceAmount="4.0" SamplerRepeatMode="3.0"
+                   RRGroupAmount="5.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                   Purged="0.0" Reversed="0.0" NumChannels="4" UseStaticMatrix="0.0"
+                   Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                   Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_rack">
+          <ChildProcessors>
+            <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors>
+                <Processor Type="SimpleEnvelope" ID="DefaultEnvelope4" Bypassed="0" Monophonic="0.0"
+                           Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="10.0" LinearMode="1.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                               Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="Velocity" ID="Velocity Modulator4" Bypassed="0" Intensity="1.0"
+                           UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="24..........5C...vO...f+....9C...vO">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="EffectChain" ID="FX" Bypassed="0">
+              <ChildProcessors>
+                <Processor Type="SimpleGain" ID="RackDir" Bypassed="0" Gain="-3.999999761581421"
+                           Delay="0.0" Width="100.0" Balance="-100.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="RackOvh" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="RackRom" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="5" Send5="-1" Channel6="6"
+                                 Send6="-1" Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="RackBld" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="8" Channel0="18" Send0="-1" Channel1="19"
+                         Send1="-1" Channel2="6" Send2="-1" Channel3="7" Send3="-1" Channel4="14"
+                         Send4="-1" Channel5="15" Send5="-1" Channel6="16" Send6="-1"
+                         Channel7="17" Send7="-1"/>
+          <channels>
+            <channelData enabled="1" level="0.0" suffix="bleed"/>
+            <channelData enabled="1" level="0.0" suffix="direct"/>
+            <channelData enabled="1" level="0.0" suffix="overhead"/>
+            <channelData enabled="1" level="0.0" suffix="room"/>
+          </channels>
+        </Processor>
+        <Processor Type="StreamingSampler" ID="Floor" Bypassed="0" Gain="1.0" Balance="0.0"
+                   VoiceLimit="4.0" KillFadeTime="20.0" IconColour="0" PreloadSize="8192.0"
+                   BufferSize="4096.0" VoiceAmount="4.0" SamplerRepeatMode="3.0"
+                   RRGroupAmount="5.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                   Purged="0.0" Reversed="0.0" NumChannels="4" UseStaticMatrix="0.0"
+                   Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                   Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_floor">
+          <ChildProcessors>
+            <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors>
+                <Processor Type="SimpleEnvelope" ID="DefaultEnvelope5" Bypassed="0" Monophonic="0.0"
+                           Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="10.0" LinearMode="1.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                               Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="Velocity" ID="Velocity Modulator5" Bypassed="0" Intensity="1.0"
+                           UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="24..........5C...vO...f+....9C...vO">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="EffectChain" ID="FX" Bypassed="0">
+              <ChildProcessors>
+                <Processor Type="SimpleGain" ID="FloorDir" Bypassed="0" Gain="-4.399999618530273"
+                           Delay="0.0" Width="100.0" Balance="100.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="FloorOvh" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="FloorRom" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="6"
+                                 Send6="-1" Channel7="7" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="FloorBld" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="8" Channel0="18" Send0="-1" Channel1="19"
+                         Send1="-1" Channel2="8" Send2="-1" Channel3="9" Send3="-1" Channel4="14"
+                         Send4="-1" Channel5="15" Send5="-1" Channel6="16" Send6="-1"
+                         Channel7="17" Send7="-1"/>
+          <channels>
+            <channelData enabled="1" level="0.0" suffix="bleed"/>
+            <channelData enabled="1" level="0.0" suffix="direct"/>
+            <channelData enabled="1" level="0.0" suffix="overhead"/>
+            <channelData enabled="1" level="0.0" suffix="room"/>
+          </channels>
+        </Processor>
+        <Processor Type="StreamingSampler" ID="Hihat" Bypassed="0" Gain="1.0" Balance="0.0"
+                   VoiceLimit="2.0" KillFadeTime="20.0" IconColour="0" PreloadSize="8192.0"
+                   BufferSize="4096.0" VoiceAmount="2.0" SamplerRepeatMode="0.0"
+                   RRGroupAmount="6.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                   Purged="0.0" Reversed="0.0" NumChannels="4" UseStaticMatrix="0.0"
+                   Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                   Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_hihat">
+          <ChildProcessors>
+            <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors>
+                <Processor Type="SimpleEnvelope" ID="DefaultEnvelope6" Bypassed="0" Monophonic="0.0"
+                           Retrigger="1.0" Intensity="1.0" Attack="5.0" Release="10.0" LinearMode="1.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                               Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="Velocity" ID="Velocity Modulator6" Bypassed="0" Intensity="1.0"
+                           UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="24..........5C...vO...f+....9C...vO">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="EffectChain" ID="FX" Bypassed="0">
+              <ChildProcessors>
+                <Processor Type="SimpleGain" ID="HihatDir" Bypassed="0" Gain="-11.79999923706055"
+                           Delay="0.0" Width="100.0" Balance="-100.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="HihatOvh" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="HihatRom" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="6"
+                                 Send6="-1" Channel7="7" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="HihatBld" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="8" Channel0="18" Send0="-1" Channel1="19"
+                         Send1="-1" Channel2="10" Send2="-1" Channel3="11" Send3="-1"
+                         Channel4="14" Send4="-1" Channel5="15" Send5="-1" Channel6="16"
+                         Send6="-1" Channel7="17" Send7="-1"/>
+          <channels>
+            <channelData enabled="1" level="0.0" suffix="bleed"/>
+            <channelData enabled="1" level="0.0" suffix="direct"/>
+            <channelData enabled="1" level="0.0" suffix="overhead"/>
+            <channelData enabled="1" level="0.0" suffix="room"/>
+          </channels>
+        </Processor>
+        <Processor Type="StreamingSampler" ID="Ride" Bypassed="0" Gain="1.0" Balance="0.0"
+                   VoiceLimit="64.0" KillFadeTime="500.0" IconColour="0" PreloadSize="8192.0"
+                   BufferSize="4096.0" VoiceAmount="64.0" SamplerRepeatMode="3.0"
+                   RRGroupAmount="3.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                   Purged="0.0" Reversed="0.0" NumChannels="4" UseStaticMatrix="0.0"
+                   Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                   Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_ride">
+          <ChildProcessors>
+            <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors>
+                <Processor Type="SimpleEnvelope" ID="DefaultEnvelope7" Bypassed="0" Monophonic="0.0"
+                           Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="10.0" LinearMode="1.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                               Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="Velocity" ID="Velocity Modulator7" Bypassed="0" Intensity="1.0"
+                           UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="36..........5C...vO.qU.+nppp7C...vO...f+....9C...vO">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="EffectChain" ID="FX" Bypassed="0">
+              <ChildProcessors>
+                <Processor Type="SimpleGain" ID="RideDir" Bypassed="0" Gain="-6.09999942779541"
+                           Delay="0.0" Width="100.0" Balance="100.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="RideOvh" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="RideRom" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="6"
+                                 Send6="-1" Channel7="7" Send7="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="RideBld" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="8" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1"/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="8" Channel0="18" Send0="-1" Channel1="19"
+                         Send1="-1" Channel2="12" Send2="-1" Channel3="13" Send3="-1"
+                         Channel4="14" Send4="-1" Channel5="15" Send5="-1" Channel6="16"
+                         Send6="-1" Channel7="17" Send7="-1"/>
+          <channels>
+            <channelData enabled="1" level="0.0" suffix="bleed"/>
+            <channelData enabled="1" level="0.0" suffix="direct"/>
+            <channelData enabled="1" level="0.0" suffix="overhead"/>
+            <channelData enabled="1" level="0.0" suffix="room"/>
+          </channels>
+        </Processor>
+        <Processor Type="SynthChain" ID="CymbalsAll" Bypassed="0" Gain="1.0" Balance="0.0"
+                   VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0">
+          <ChildProcessors>
+            <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="EffectChain" ID="FX" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="StreamingSampler" ID="CymbalsDirect" Bypassed="0" Gain="1.0"
+                       Balance="0.0" VoiceLimit="16.0" KillFadeTime="20.0" IconColour="0"
+                       PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="16.0" SamplerRepeatMode="3.0"
+                       RRGroupAmount="2.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                       Purged="0.0" Reversed="0.0" NumChannels="10" UseStaticMatrix="0.0"
+                       Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                       Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_cymbalsDir">
+              <ChildProcessors>
+                <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors>
+                    <Processor Type="SimpleEnvelope" ID="DefaultEnvelope9" Bypassed="0" Monophonic="0.0"
+                               Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="10.0" LinearMode="1.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                                   Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                    </Processor>
+                    <Processor Type="Velocity" ID="Velocity Modulator7" Bypassed="0" Intensity="1.0"
+                               UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="24..........5C...vO...f+....9C...vO">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="EffectChain" ID="FX" Bypassed="0">
+                  <ChildProcessors>
+                    <Processor Type="SimpleGain" ID="CdirOvh" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                     Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                     Send6="-1" Channel7="-1" Send7="-1" Channel8="8" Send8="-1" Channel9="9"
+                                     Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                                     Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                                     Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                                     Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                                     Send19="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CdirRom" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                     Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                     Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                     Channel9="-1" Send9="-1" Channel10="10" Send10="-1" Channel11="11"
+                                     Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                                     Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                                     Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                                     Channel19="-1" Send19="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CdirBld" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                     Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                                     Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                     Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                     Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                                     Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                                     Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                                     Channel19="-1" Send19="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CdirAx1" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="-100.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                                     Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                                     Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                     Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                                     Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                                     Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                                     Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                                     Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                                     Send19="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CdirAx2" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="-100.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                                     Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                     Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                                     Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                                     Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                                     Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                                     Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                                     Send19="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CdirChn" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="100.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                     Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="6"
+                                     Send6="-1" Channel7="7" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                                     Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"
+                                     Channel12="-1" Send12="-1" Channel13="-1" Send13="-1" Channel14="-1"
+                                     Send14="-1" Channel15="-1" Send15="-1" Channel16="-1" Send16="-1"
+                                     Channel17="-1" Send17="-1" Channel18="-1" Send18="-1" Channel19="-1"
+                                     Send19="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CdirSpl" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="-100.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                     Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                     Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                     Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                     Send11="-1" Channel12="12" Send12="-1" Channel13="13" Send13="-1"
+                                     Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                                     Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                                     Channel19="-1" Send19="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CdirSpr" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="100.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                     Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                     Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                     Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                     Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                                     Channel14="14" Send14="-1" Channel15="15" Send15="-1" Channel16="-1"
+                                     Send16="-1" Channel17="-1" Send17="-1" Channel18="-1" Send18="-1"
+                                     Channel19="-1" Send19="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CdirSkl" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="-100.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                     Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                     Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                     Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                     Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                                     Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="16"
+                                     Send16="-1" Channel17="17" Send17="-1" Channel18="-1" Send18="-1"
+                                     Channel19="-1" Send19="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CdirSkr" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="100.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                     Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                     Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                     Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                     Send11="-1" Channel12="-1" Send12="-1" Channel13="-1" Send13="-1"
+                                     Channel14="-1" Send14="-1" Channel15="-1" Send15="-1" Channel16="-1"
+                                     Send16="-1" Channel17="-1" Send17="-1" Channel18="18" Send18="-1"
+                                     Channel19="19" Send19="-1"/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="20" Channel0="12" Send0="-1" Channel1="13"
+                             Send1="-1" Channel2="12" Send2="-1" Channel3="13" Send3="-1"
+                             Channel4="18" Send4="-1" Channel5="19" Send5="-1" Channel6="12"
+                             Send6="-1" Channel7="13" Send7="-1" Channel8="14" Send8="-1"
+                             Channel9="15" Send9="-1" Channel10="16" Send10="-1" Channel11="17"
+                             Send11="-1" Channel12="12" Send12="-1" Channel13="13" Send13="-1"
+                             Channel14="12" Send14="-1" Channel15="13" Send15="-1" Channel16="12"
+                             Send16="-1" Channel17="13" Send17="-1" Channel18="12" Send18="-1"
+                             Channel19="13" Send19="-1"/>
+              <channels>
+                <channelData enabled="1" level="0.0" suffix="aux1"/>
+                <channelData enabled="1" level="0.0" suffix="aux2"/>
+                <channelData enabled="1" level="0.0" suffix="bleed"/>
+                <channelData enabled="1" level="0.0" suffix="china"/>
+                <channelData enabled="1" level="0.0" suffix="overhead"/>
+                <channelData enabled="1" level="0.0" suffix="room"/>
+                <channelData enabled="1" level="0.0" suffix="splashl"/>
+                <channelData enabled="1" level="0.0" suffix="splashr"/>
+                <channelData enabled="1" level="0.0" suffix="stackl"/>
+                <channelData enabled="1" level="0.0" suffix="stackr"/>
+              </channels>
+            </Processor>
+            <Processor Type="StreamingSampler" ID="CymbalsIndirect" Bypassed="0" Gain="1.0"
+                       Balance="0.0" VoiceLimit="16.0" KillFadeTime="20.0" IconColour="0"
+                       PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="16.0" SamplerRepeatMode="3.0"
+                       RRGroupAmount="2.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                       Purged="0.0" Reversed="0.0" NumChannels="3" UseStaticMatrix="0.0"
+                       Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                       Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_cymbalsInd">
+              <ChildProcessors>
+                <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors>
+                    <Processor Type="SimpleEnvelope" ID="DefaultEnvelope8" Bypassed="0" Monophonic="0.0"
+                               Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="10.0" LinearMode="1.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                                   Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                    </Processor>
+                    <Processor Type="Velocity" ID="Velocity Modulator9" Bypassed="0" Intensity="1.0"
+                               UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="24..........5C...vO...f+....9C...vO">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="EffectChain" ID="FX" Bypassed="0">
+                  <ChildProcessors>
+                    <Processor Type="SimpleGain" ID="CindOvh" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="6" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                                     Send4="-1" Channel5="-1" Send5="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CindRom" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="6" Channel0="-1" Send0="-1" Channel1="-1"
+                                     Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                     Channel4="4" Send4="-1" Channel5="5" Send5="-1"/>
+                    </Processor>
+                    <Processor Type="SimpleGain" ID="CindBld" Bypassed="0" Gain="0.0" Delay="0.0"
+                               Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                      <ChildProcessors>
+                        <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                        <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                          <ChildProcessors/>
+                        </Processor>
+                      </ChildProcessors>
+                      <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                                     Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                                     Send4="-1" Channel5="-1" Send5="-1"/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="6" Channel0="18" Send0="-1" Channel1="19"
+                             Send1="-1" Channel2="14" Send2="-1" Channel3="15" Send3="-1"
+                             Channel4="16" Send4="-1" Channel5="17" Send5="-1"/>
+              <channels>
+                <channelData enabled="1" level="0.0" suffix="bleed"/>
+                <channelData enabled="1" level="0.0" suffix="overhead"/>
+                <channelData enabled="1" level="0.0" suffix="room"/>
+              </channels>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="20" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                         Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                         Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                         Send11="-1" Channel12="20" Send12="-1" Channel13="21" Send13="-1"
+                         Channel14="14" Send14="-1" Channel15="15" Send15="-1" Channel16="16"
+                         Send16="-1" Channel17="17" Send17="-1" Channel18="18" Send18="-1"
+                         Channel19="19" Send19="-1"/>
+        </Processor>
+        <Processor Type="StreamingSampler" ID="Percussion" Bypassed="0" Gain="1.0"
+                   Balance="0.0" VoiceLimit="16.0" KillFadeTime="20.0" IconColour="0"
+                   PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="16.0" SamplerRepeatMode="3.0"
+                   RRGroupAmount="6.0" PitchTracking="0.0" OneShot="1.0" CrossfadeGroups="0.0"
+                   Purged="0.0" Reversed="0.0" NumChannels="6" UseStaticMatrix="0.0"
+                   Group0Table="" Group1Table="" Group2Table="" Group3Table="" Group4Table=""
+                   Group5Table="" Group6Table="" Group7Table="" SampleMapID="pdl_perc">
+          <ChildProcessors>
+            <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+              <ChildProcessors>
+                <Processor Type="SimpleEnvelope" ID="DefaultEnvelope10" Bypassed="0" Monophonic="0.0"
+                           Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="10.0" LinearMode="1.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                               Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+                <Processor Type="Velocity" ID="Velocity Modulator10" Bypassed="0" Intensity="1.0"
+                           UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="24..........5C...vO...f+....9C...vO">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="EffectChain" ID="FX" Bypassed="0">
+              <ChildProcessors>
+                <Processor Type="SimpleGain" ID="PercOvh" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="12" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="6"
+                                 Send6="-1" Channel7="7" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                                 Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="PercRom" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="12" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1" Channel8="8" Send8="-1" Channel9="9"
+                                 Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="PercBld" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="12" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                                 Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                                 Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="PercBng" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="12" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                                 Send4="-1" Channel5="-1" Send5="-1" Channel6="-1" Send6="-1"
+                                 Channel7="-1" Send7="-1" Channel8="-1" Send8="-1" Channel9="-1"
+                                 Send9="-1" Channel10="-1" Send10="-1" Channel11="-1" Send11="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="PercClv" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="12" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="4" Send4="-1" Channel5="5" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                 Channel9="-1" Send9="-1" Channel10="-1" Send10="-1" Channel11="-1"
+                                 Send11="-1"/>
+                </Processor>
+                <Processor Type="SimpleGain" ID="PercTri" Bypassed="0" Gain="0.0" Delay="0.0"
+                           Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="12" Channel0="-1" Send0="-1" Channel1="-1"
+                                 Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                                 Channel4="-1" Send4="-1" Channel5="-1" Send5="-1" Channel6="-1"
+                                 Send6="-1" Channel7="-1" Send7="-1" Channel8="-1" Send8="-1"
+                                 Channel9="-1" Send9="-1" Channel10="10" Send10="-1" Channel11="11"
+                                 Send11="-1"/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="12" Channel0="18" Send0="-1" Channel1="19"
+                         Send1="-1" Channel2="22" Send2="-1" Channel3="23" Send3="-1"
+                         Channel4="22" Send4="-1" Channel5="23" Send5="-1" Channel6="14"
+                         Send6="-1" Channel7="15" Send7="-1" Channel8="16" Send8="-1"
+                         Channel9="17" Send9="-1" Channel10="22" Send10="-1" Channel11="23"
+                         Send11="-1"/>
+          <channels>
+            <channelData enabled="1" level="0.0" suffix="bleed"/>
+            <channelData enabled="1" level="0.0" suffix="bong"/>
+            <channelData enabled="1" level="0.0" suffix="clav"/>
+            <channelData enabled="1" level="0.0" suffix="overhead"/>
+            <channelData enabled="1" level="0.0" suffix="room"/>
+            <channelData enabled="1" level="0.0" suffix="tri"/>
+          </channels>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="24" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                     Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="2"
+                     Send4="-1" Channel5="3" Send5="-1" Channel6="4" Send6="-1" Channel7="5"
+                     Send7="-1" Channel8="6" Send8="-1" Channel9="7" Send9="-1" Channel10="8"
+                     Send10="-1" Channel11="9" Send11="-1" Channel12="10" Send12="-1"
+                     Channel13="11" Send13="-1" Channel14="12" Send14="-1" Channel15="13"
+                     Send15="-1" Channel16="14" Send16="-1" Channel17="15" Send17="-1"
+                     Channel18="12" Send18="-1" Channel19="13" Send19="-1" Channel20="16"
+                     Send20="-1" Channel21="17" Send21="-1" Channel22="18" Send22="-1"
+                     Channel23="19" Send23="-1"/>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="24" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                 Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
+                 Send4="-1" Channel5="1" Send5="-1" Channel6="0" Send6="-1" Channel7="1"
+                 Send7="-1" Channel8="0" Send8="-1" Channel9="1" Send9="-1" Channel10="0"
+                 Send10="-1" Channel11="1" Send11="-1" Channel12="0" Send12="-1"
+                 Channel13="1" Send13="-1" Channel14="0" Send14="-1" Channel15="1"
+                 Send15="-1" Channel16="0" Send16="-1" Channel17="1" Send17="-1"
+                 Channel18="0" Send18="-1" Channel19="1" Send19="-1" Channel20="0"
+                 Send20="-1" Channel21="1" Send21="-1" Channel22="-1" Send22="-1"
+                 Channel23="-1" Send23="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

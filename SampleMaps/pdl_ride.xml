@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="pdl_ride" SaveMode="2" FileName="" MicPositions="bleed;direct;overhead;room;"
+           RRGroupAmount="3.0" CrossfadeGamma="1.0">
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="63" RRGroup="3"
+          Duplicate="1" Volume="4" SampleEnd="230400" MonolithOffset="0"
+          MonolithLength="233472" SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr03_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr03_direct.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr03_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr03_room.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="63" RRGroup="2"
+          Duplicate="1" Volume="4" SampleEnd="230400" MonolithOffset="233472"
+          MonolithLength="233472" SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr02_direct.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr02_room.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="63" RRGroup="1"
+          Duplicate="1" Volume="4" SampleEnd="230400" MonolithOffset="466944"
+          MonolithLength="233472" SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr01_direct.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_medium_dyn2_F3_rr01_room.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="64" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="700416" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr02_direct.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr02_room.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="64" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="1007616" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr01_direct.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr01_room.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="64" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="1314816" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr03_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr03_direct.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr03_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bell_hard_dyn3_F3_rr03_room.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" Volume="3" SampleEnd="230400" MonolithOffset="1622016"
+          MonolithLength="233472" SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr03_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr03_direct.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr03_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr03_room.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" Volume="3" SampleEnd="230400" MonolithOffset="1855488"
+          MonolithLength="233472" SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr02_direct.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr02_room.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" Volume="3" SampleEnd="230400" MonolithOffset="2088960"
+          MonolithLength="233472" SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr01_direct.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_ride_wash_dyn3_D#3_rr01_room.wav"/>
+  </sample>
+</samplemap>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="pdl_cymbalsInd" SaveMode="2" FileName="pdl_cymbalsInd" MicPositions="bleed;overhead;room;"
+           RRGroupAmount="2.0" CrossfadeGamma="1.0">
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="0" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecl_combo_dyn3_G1_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecl_combo_dyn3_G1_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecl_combo_dyn3_G1_rr01_room.wav"/>
+  </sample>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="307200" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecl_combo_dyn3_G1_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecl_combo_dyn3_G1_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecl_combo_dyn3_G1_rr02_room.wav"/>
+  </sample>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="614400" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecr_combo_dyn3_G#1_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecr_combo_dyn3_G#1_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecr_combo_dyn3_G#1_rr01_room.wav"/>
+  </sample>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="921600" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecr_combo_dyn3_G#1_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecr_combo_dyn3_G#1_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_auxonecr_combo_dyn3_G#1_rr02_room.wav"/>
+  </sample>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="1228800" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_chinacr_combo_dyn3_F#1_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_chinacr_combo_dyn3_F#1_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_chinacr_combo_dyn3_F#1_rr01_room.wav"/>
+  </sample>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="1536000" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_chinacr_combo_dyn3_F#1_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_chinacr_combo_dyn3_F#1_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_chinacr_combo_dyn3_F#1_rr02_room.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="1843200" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_crash_l_dyn3_C#3_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crash_l_dyn3_C#3_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crash_l_dyn3_C#3_rr01_room.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="2076672" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_crash_l_dyn3_C#3_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crash_l_dyn3_C#3_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crash_l_dyn3_C#3_rr02_room.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="2310144" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_crash_r_dyn3_A3_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crash_r_dyn3_A3_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crash_r_dyn3_A3_rr01_room.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="2543616" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_crash_r_dyn3_A3_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crash_r_dyn3_A3_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crash_r_dyn3_A3_rr02_room.wav"/>
+  </sample>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="2777088" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_crashlr_combo_dyn3_A1_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crashlr_combo_dyn3_A1_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crashlr_combo_dyn3_A1_rr01_room.wav"/>
+  </sample>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="307200" MonolithOffset="3084288" MonolithLength="307200"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_crashlr_combo_dyn3_A1_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crashlr_combo_dyn3_A1_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_crashlr_combo_dyn3_A1_rr02_room.wav"/>
+  </sample>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="484224" MonolithOffset="3391488" MonolithLength="487424"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_aux1_dyn3_C#1_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_aux1_dyn3_C#1_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_aux1_dyn3_C#1_rr01_room.wav"/>
+  </sample>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="494016" MonolithOffset="3878912" MonolithLength="495616"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_aux1_dyn3_C#1_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_aux1_dyn3_C#1_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_aux1_dyn3_C#1_rr02_room.wav"/>
+  </sample>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="478848" MonolithOffset="4374528" MonolithLength="479232"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_china_dyn3_C1_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_china_dyn3_C1_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_china_dyn3_C1_rr01_room.wav"/>
+  </sample>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="470784" MonolithOffset="4853760" MonolithLength="471040"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_china_dyn3_C1_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_china_dyn3_C1_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_china_dyn3_C1_rr02_room.wav"/>
+  </sample>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="479616" MonolithOffset="5324800" MonolithLength="483328"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashl_dyn3_D#1_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashl_dyn3_D#1_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashl_dyn3_D#1_rr01_room.wav"/>
+  </sample>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="479808" MonolithOffset="5808128" MonolithLength="483328"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashl_dyn3_D#1_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashl_dyn3_D#1_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashl_dyn3_D#1_rr02_room.wav"/>
+  </sample>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="466176" MonolithOffset="6291456" MonolithLength="466944"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashr_dyn3_E1_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashr_dyn3_E1_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashr_dyn3_E1_rr01_room.wav"/>
+  </sample>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="469056" MonolithOffset="6758400" MonolithLength="471040"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashr_dyn3_E1_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashr_dyn3_E1_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_crashr_dyn3_E1_rr02_room.wav"/>
+  </sample>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="706944" MonolithOffset="7229440" MonolithLength="708608"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_ride_dyn3_D1_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_ride_dyn3_D1_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_ride_dyn3_D1_rr01_room.wav"/>
+  </sample>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="734016" MonolithOffset="7938048" MonolithLength="737280"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_swell_ride_dyn3_D1_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_ride_dyn3_D1_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_swell_ride_dyn3_D1_rr02_room.wav"/>
+  </sample>
+</samplemap>

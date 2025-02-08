@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel0" x="102.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="0" textColour="16777215" width="35.0"
+             height="18.0" itemColour="1911085" itemColour2="1911085" popupOnRightClick="0"
+             holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox0" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" fontStyle="Regular" parentComponent="Panel0"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               text="Routing" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel1" x="164.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox1" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" bgColour="16777215" itemColour="3355443"
+               itemColour2="1118481" parentComponent="Panel1" defaultValue="2.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel2" x="226.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox2" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" bgColour="16777215" itemColour="3355443"
+               itemColour2="1118481" parentComponent="Panel2" defaultValue="3.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel3" x="290.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox3" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" bgColour="16777215" itemColour="3355443"
+               itemColour2="1118481" parentComponent="Panel3" defaultValue="4.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel4" x="350.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox4" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" bgColour="16777215" itemColour="3355443"
+               itemColour2="1118481" parentComponent="Panel4" defaultValue="5.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel5" x="412.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox5" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" bgColour="16777215" itemColour="3355443"
+               itemColour2="1118481" parentComponent="Panel5" defaultValue="6.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel6" x="474.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox6" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" bgColour="16777215" itemColour="3355443"
+               itemColour2="1118481" parentComponent="Panel6" defaultValue="7.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel7" x="516.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox7" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" bgColour="16777215" itemColour="3355443"
+               itemColour2="1118481" parentComponent="Panel7" defaultValue="8.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel8" x="557.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox8" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" bgColour="16777215" itemColour="3355443"
+               itemColour2="1118481" parentComponent="Panel8" defaultValue="9.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel9" x="599.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox9" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" parentComponent="Panel9" itemColour2="1118481"
+               itemColour="3355443" bgColour="16777215" defaultValue="10.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel10" x="641.0" y="550.0" borderSize="0.0"
+             borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             width="35.0" height="18.0" itemColour="1911085" itemColour2="1911085"
+             popupOnRightClick="0" holdIsRightClick="0" text="">
+    <Component type="ScriptComboBox" id="ComboBox10" x="-7.0" y="-6.0" items="1/2&#10;3/4&#10;5/6&#10;7/8&#10;9/10&#10;11/12&#10;13/14&#10;15/16&#10;17/18&#10;19/20&#10;21/22"
+               width="80.0" height="30.0" bgColour="16777215" itemColour="3355443"
+               itemColour2="1118481" parentComponent="Panel10" defaultValue="11.0"
+               text="Routing" fontStyle="Regular" max="11"/>
+  </Component>
+  <Component type="ScriptFloatingTile" id="MasterL" x="915.0" y="200.0" ContentType="MatrixPeakMeter"
+             bgColour="0" itemColour="5592405" itemColour2="2236962" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MeterListen&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 0.0,&#10;  &quot;UseSourceChannels&quot;: false,&#10;  &quot;SkewFactor&quot;: 0.1,&#10;  &quot;PaddingSize&quot;: 0.0,&#10;  &quot;ShowMaxPeak&quot;: 0.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    0&#10;  ]&#10;}"
+             width="42.0" height="319.0" textColour="16777215" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="MasterR" x="944.0" y="200.0" ContentType="MatrixPeakMeter"
+             bgColour="0" itemColour="5592405" itemColour2="2236962" Data="{&#10;  &quot;ProcessorId&quot;: &quot;MeterListen&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 0.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 0.1,&#10;  &quot;PaddingSize&quot;: 0.0,&#10;  &quot;ShowMaxPeak&quot;: 0.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    1&#10;  ]&#10;}"
+             width="42.0" height="319.0" textColour="16777215" enabled="0"/>
+  <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" width="1000.0"
+             height="624.0" fileName="{PROJECT_FOLDER}pdl_background.png"
+             popupOnRightClick="0" enabled="0"/>
+  <Component type="ScriptButton" id="Mute0" x="110.0" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 1"/>
+  <Component type="ScriptButton" id="Mute1" x="172.0" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 2"/>
+  <Component type="ScriptButton" id="Mute2" x="234.0" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 3"/>
+  <Component type="ScriptButton" id="Mute3" x="296.0" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 4"/>
+  <Component type="ScriptButton" id="Mute4" x="358.0" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 5"/>
+  <Component type="ScriptButton" id="Mute5" x="420.0" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 6"/>
+  <Component type="ScriptButton" id="Mute6" x="482.0" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 7"/>
+  <Component type="ScriptButton" id="Mute7" x="523.5" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 8"/>
+  <Component type="ScriptButton" id="Mute8" x="565.0" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 9"/>
+  <Component type="ScriptButton" id="Mute9" x="606.5" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 10"/>
+  <Component type="ScriptButton" id="Mute10" x="648.0" y="442.0" text="Mute"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mute.png"
+             tooltip="Mute" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Mute Ch. 11"/>
+  <Component type="ScriptButton" id="Solo0" x="110.0" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 1"/>
+  <Component type="ScriptButton" id="Solo1" x="172.0" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 2"/>
+  <Component type="ScriptButton" id="Solo2" x="234.0" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 3"/>
+  <Component type="ScriptButton" id="Solo3" x="296.0" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 4"/>
+  <Component type="ScriptButton" id="Solo4" x="358.0" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 5"/>
+  <Component type="ScriptButton" id="Solo5" x="420.0" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 6"/>
+  <Component type="ScriptButton" id="Solo6" x="482.0" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 7"/>
+  <Component type="ScriptButton" id="Solo7" x="523.5" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 8"/>
+  <Component type="ScriptButton" id="Solo8" x="565.0" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 9"/>
+  <Component type="ScriptButton" id="Solo9" x="606.5" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 10"/>
+  <Component type="ScriptButton" id="Solo10" x="648.0" y="414.0" text="Solo"
+             width="21.0" height="21.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_solo.png"
+             tooltip="Solo" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Solo Ch. 11"/>
+  <Component type="ScriptButton" id="Mix0" x="110.0" y="475.0" text="Mix"
+             width="21.0" height="16.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mix.png"
+             tooltip="Mix" scaleFactor="0.3600000143051147"/>
+  <Component type="ScriptButton" id="Mix1" x="420.0" y="475.0" text="Mix"
+             width="21.0" height="16.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mix.png"
+             tooltip="Mix" scaleFactor="0.3600000143051147"/>
+  <Component type="ScriptButton" id="Mix2" x="234.0" y="475.0" text="Mix"
+             width="21.0" height="16.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mix.png"
+             tooltip="Mix" scaleFactor="0.3600000143051147"/>
+  <Component type="ScriptButton" id="Mix3" x="296.0" y="475.0" text="Mix"
+             width="21.0" height="16.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mix.png"
+             tooltip="Mix" scaleFactor="0.3600000143051147"/>
+  <Component type="ScriptButton" id="Mix4" x="358.0" y="475.0" text="Mix"
+             width="21.0" height="16.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mix.png"
+             tooltip="Mix" scaleFactor="0.3600000143051147"/>
+  <Component type="ScriptButton" id="Mix5" x="172.0" y="475.0" text="Mix"
+             width="21.0" height="16.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mix.png"
+             tooltip="Mix" scaleFactor="0.3600000143051147"/>
+  <Component type="ScriptButton" id="Mix6" x="565.0" y="475.0" text="Mix"
+             width="21.0" height="16.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mix.png"
+             tooltip="Mix" scaleFactor="0.3600000143051147"/>
+  <Component type="ScriptButton" id="Mix7" x="606.5" y="475.0" text="Mix"
+             width="21.0" height="16.0" numStrips="6.0" filmstripImage="{PROJECT_FOLDER}pdl_mix.png"
+             tooltip="Mix" scaleFactor="0.3600000143051147"/>
+  <Component type="ScriptSlider" id="Pan0" x="100.0" y="360.0" middlePosition="0.0"
+             stepSize="1.0" min="-100.0" max="100.0" suffix="L" filmstripImage="{PROJECT_FOLDER}pdl_knob.png"
+             text="Pan" tooltip="Pan" mode="Pan" numStrips="128.0" height="42.0"
+             width="42.0" scaleFactor="0.6000000238418579" showTextBox="0"
+             scrollWheel="0" processorId="KickDir" parameterId="Balance" isPluginParameter="1"
+             pluginParameterName="Pan Ch. 1"/>
+  <Component type="ScriptSlider" id="Pan1" x="162.0" y="360.0" middlePosition="0.0"
+             stepSize="1.0" min="-100.0" max="100.0" suffix="L" filmstripImage="{PROJECT_FOLDER}pdl_knob.png"
+             text="Pan" tooltip="Pan" mode="Pan" numStrips="128.0" height="42.0"
+             width="42.0" scaleFactor="0.6000000238418579" showTextBox="0"
+             scrollWheel="0" processorId="SnrAVol" parameterId="Balance" isPluginParameter="1"
+             pluginParameterName="Pan Ch. 2"/>
+  <Component type="ScriptSlider" id="Pan2" x="224.0" y="360.0" middlePosition="0.0"
+             stepSize="1.0" min="-100.0" max="100.0" suffix="L" filmstripImage="{PROJECT_FOLDER}pdl_knob.png"
+             text="Pan" tooltip="Pan" mode="Pan" numStrips="128.0" height="42.0"
+             width="42.0" scaleFactor="0.6000000238418579" showTextBox="0"
+             scrollWheel="0" processorId="RackDir" parameterId="Balance" isPluginParameter="1"
+             pluginParameterName="Pan Ch. 3"/>
+  <Component type="ScriptSlider" id="Pan3" x="286.0" y="360.0" middlePosition="0.0"
+             stepSize="1.0" min="-100.0" max="100.0" suffix="L" filmstripImage="{PROJECT_FOLDER}pdl_knob.png"
+             text="Pan" tooltip="Pan" mode="Pan" numStrips="128.0" height="42.0"
+             width="42.0" scaleFactor="0.6000000238418579" showTextBox="0"
+             scrollWheel="0" processorId="FloorDir" parameterId="Balance"
+             isPluginParameter="1" pluginParameterName="Pan Ch. 4"/>
+  <Component type="ScriptSlider" id="Pan4" x="348.0" y="360.0" middlePosition="0.0"
+             stepSize="1.0" min="-100.0" max="100.0" suffix="L" filmstripImage="{PROJECT_FOLDER}pdl_knob.png"
+             text="Pan" tooltip="Pan" mode="Pan" numStrips="128.0" height="42.0"
+             width="42.0" scaleFactor="0.6000000238418579" showTextBox="0"
+             scrollWheel="0" processorId="HihatDir" parameterId="Balance"
+             isPluginParameter="1" pluginParameterName="Pan Ch. 5"/>
+  <Component type="ScriptSlider" id="Pan5" x="410.0" y="360.0" middlePosition="0.0"
+             stepSize="1.0" min="-100.0" max="100.0" suffix="L" filmstripImage="{PROJECT_FOLDER}pdl_knob.png"
+             text="Pan" tooltip="Pan" mode="Pan" numStrips="128.0" height="42.0"
+             width="42.0" scaleFactor="0.6000000238418579" showTextBox="0"
+             scrollWheel="0" processorId="RideDir" parameterId="Balance" isPluginParameter="1"
+             pluginParameterName="Pan Ch. 6"/>
+  <Component type="ScriptFloatingTile" id="channelMtr0" x="110.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 1.0,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    0,&#10;    1&#10;  ]&#10;}"
+             width="10.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr1" x="172.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 750.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 2.0,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    2,&#10;    3&#10;  ]&#10;}"
+             width="10.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr2" x="234.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 1.0,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    4,&#10;    5&#10;  ]&#10;}"
+             width="10.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr3" x="296.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 1.0,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    6,&#10;    7&#10;  ]&#10;}"
+             width="10.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr4" x="358.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 0.5,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    8,&#10;    9&#10;  ]&#10;}"
+             width="10.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr5" x="420.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 0.5,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    10,&#10;    11&#10;  ]&#10;}"
+             width="10.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr6" x="487.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 0.5,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    12,&#10;    13&#10;  ]&#10;}"
+             width="5.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr7" x="528.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 0.5,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    14,&#10;    15&#10;  ]&#10;}"
+             width="5.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr8" x="569.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 0.5,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    16,&#10;    17&#10;  ]&#10;}"
+             width="5.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr9" x="611.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2751760988"
+             itemColour2="5070434" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 0.5,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    18,&#10;    19&#10;  ]&#10;}"
+             width="5.0" height="210.0" enabled="0"/>
+  <Component type="ScriptFloatingTile" id="channelMtr10" x="652.0" y="113.0"
+             ContentType="MatrixPeakMeter" bgColour="0" itemColour="2064842496"
+             itemColour2="2236962" Data="{&#10;  &quot;ProcessorId&quot;: &quot;PeksenakDrumLibrary&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 500.0,&#10;  &quot;UseSourceChannels&quot;: true,&#10;  &quot;SkewFactor&quot;: 0.5,&#10;  &quot;PaddingSize&quot;: 0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    20,&#10;    21&#10;  ]&#10;}"
+             width="5.0" height="210.0" enabled="0"/>
+  <Component type="ScriptSlider" id="Vol0" x="110.5" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             min="-32.0" max="12.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-12.0" pluginParameterName="Volume Ch. 1" processorId="KickDir"
+             parameterId="Gain" isPluginParameter="1"/>
+  <Component type="ScriptSlider" id="Vol1" x="172.5" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             min="-32.0" max="12.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-12.0" pluginParameterName="Volume Ch. 2" processorId="SnrAVol"
+             parameterId="Gain" isPluginParameter="1"/>
+  <Component type="ScriptSlider" id="Vol2" x="234.5" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             min="-32.0" max="12.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-12.0" processorId="RackDir" parameterId="Gain"
+             isPluginParameter="1" pluginParameterName="Volume Ch. 3"/>
+  <Component type="ScriptSlider" id="Vol3" x="296.5" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             min="-32.0" max="12.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-12.0" processorId="FloorDir" parameterId="Gain"
+             isPluginParameter="1" pluginParameterName="Volume Ch. 4"/>
+  <Component type="ScriptSlider" id="Vol4" x="358.5" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             min="-32.0" max="12.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-12.0" processorId="HihatDir" parameterId="Gain"
+             isPluginParameter="1" pluginParameterName="Volume Ch. 5"/>
+  <Component type="ScriptSlider" id="Vol5" x="420.5" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             min="-32.0" max="12.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-12.0" processorId="RideDir" parameterId="Gain"
+             isPluginParameter="1" pluginParameterName="Volume Ch. 6"/>
+  <Component type="ScriptSlider" id="Vol6" x="482.5" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             min="-32.0" max="12.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-12.0" processorId="OvhBVol" parameterId="Gain"
+             isPluginParameter="1" pluginParameterName="Volume Ch. 7"/>
+  <Component type="ScriptSlider" id="Vol7" x="524.0" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             min="-32.0" max="12.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-12.0" processorId="RoomVol" parameterId="Gain"
+             isPluginParameter="1" pluginParameterName="Volume Ch. 8"/>
+  <Component type="ScriptSlider" id="Vol8" x="565.5" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             min="-32.0" max="12.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-12.0" processorId="SpotVol" parameterId="Gain"
+             isPluginParameter="1" pluginParameterName="Volume Ch. 9"/>
+  <Component type="ScriptSlider" id="Vol9" x="607.0" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" mode="Decibel"
+             max="12.0" stepSize="0.1000000014901161" suffix=" dB" middlePosition="-12.0"
+             min="-32.0" processorId="PercVol" parameterId="Gain" isPluginParameter="1"
+             pluginParameterName="Volume Ch. 10"/>
+  <Component type="ScriptSlider" id="Vol10" x="648.5" y="100.0" text="Volume"
+             tooltip="Volume" height="240.0" width="23.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_tall.png"
+             numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+             showTextBox="0" scrollWheel="0" enableMidiLearn="0" max="36.0"
+             stepSize="0.1000000014901161" suffix=" dB" middlePosition="15.0"
+             mode="Decibel" defaultValue="24.0" min="7.0" processorId="VerbVol"
+             parameterId="Gain" isPluginParameter="1" pluginParameterName="Volume Ch. 11"/>
+  <Component type="ScriptButton" id="VMute0" x="96.0" y="497.0" width="48.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_wide_send.png"
+             numStrips="6.0" scaleFactor="0.5" processorId="" isPluginParameter="1"
+             pluginParameterName="Send Power Ch. 1"/>
+  <Component type="ScriptButton" id="VMute1" x="158.0" y="497.0" width="48.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_wide_send.png"
+             numStrips="6.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Power Ch. 2"/>
+  <Component type="ScriptButton" id="VMute2" x="220.0" y="497.0" width="48.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_wide_send.png"
+             numStrips="6.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Power Ch. 3"/>
+  <Component type="ScriptButton" id="VMute3" x="284.0" y="497.0" width="48.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_wide_send.png"
+             numStrips="6.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Power Ch. 4"/>
+  <Component type="ScriptButton" id="VMute4" x="344.0" y="497.0" width="48.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_wide_send.png"
+             numStrips="6.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Power Ch. 5"/>
+  <Component type="ScriptButton" id="VMute5" x="406.0" y="497.0" width="48.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_wide_send.png"
+             numStrips="6.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Power Ch. 6"/>
+  <Component type="ScriptButton" id="VMute6" x="474.0" y="497.0" width="35.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_narrow_send.png"
+             numStrips="6.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Power Ch. 7"/>
+  <Component type="ScriptButton" id="VMute7" x="516.0" y="497.0" width="35.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_narrow_send.png"
+             numStrips="6.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Power Ch. 8"/>
+  <Component type="ScriptButton" id="VMute8" x="557.0" y="497.0" width="35.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_narrow_send.png"
+             numStrips="6.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Power Ch. 9"/>
+  <Component type="ScriptButton" id="VMute9" x="599.0" y="497.0" width="35.0"
+             height="18.0" filmstripImage="{PROJECT_FOLDER}pdl_narrow_send.png"
+             numStrips="6.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Power Ch. 10"/>
+  <Component type="ScriptSlider" id="VVol0" x="93.0" y="520.0" width="60.0"
+             height="20.0" tooltip="Send Amount" text="Send" min="-100.0"
+             max="0.0" stepSize="0.1000000014901161" suffix=" dB" middlePosition="-18.0"
+             dragDirection="Horizontal" showTextBox="0" scrollWheel="0" enableMidiLearn="0"
+             mode="Decibel" bgColour="3042181012" itemColour="1619757963"
+             textColour="3870097327" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             numStrips="128.0" scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Amount Ch. 1"/>
+  <Component type="ScriptSlider" id="VVol1" x="154.0" y="520.0" width="60.0"
+             height="20.0" tooltip="Send Amount" text="Send" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" dragDirection="Horizontal" showTextBox="0"
+             scrollWheel="0" enableMidiLearn="0" itemColour="1619757963" bgColour="3042181012"
+             textColour="3870097327" numStrips="128.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Amount Ch. 2"/>
+  <Component type="ScriptSlider" id="VVol2" x="217.0" y="520.0" width="60.0"
+             height="20.0" tooltip="Send Amount" text="Send" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" dragDirection="Horizontal" showTextBox="0"
+             scrollWheel="0" enableMidiLearn="0" bgColour="3042181012" itemColour="1619757963"
+             textColour="3870097327" numStrips="128.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Amount Ch. 3"/>
+  <Component type="ScriptSlider" id="VVol3" x="281.0" y="520.0" width="60.0"
+             height="20.0" tooltip="Send Amount" text="Send" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" dragDirection="Horizontal" showTextBox="0"
+             scrollWheel="0" enableMidiLearn="0" bgColour="3042181012" itemColour="1619757963"
+             textColour="3870097327" numStrips="128.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Amount Ch. 4"/>
+  <Component type="ScriptSlider" id="VVol4" x="341.0" y="520.0" width="60.0"
+             height="20.0" tooltip="Send Amount" text="Send" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" dragDirection="Horizontal" showTextBox="0"
+             scrollWheel="0" enableMidiLearn="0" bgColour="3042181012" itemColour="1619757963"
+             textColour="3870097327" numStrips="128.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Amount Ch. 5"/>
+  <Component type="ScriptSlider" id="VVol5" x="403.0" y="520.0" width="60.0"
+             height="20.0" tooltip="Send Amount" text="Send" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" dragDirection="Horizontal" showTextBox="0"
+             scrollWheel="0" enableMidiLearn="0" bgColour="3042181012" itemColour="1619757963"
+             textColour="3870097327" numStrips="128.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             scaleFactor="0.5" isPluginParameter="1" pluginParameterName="Send Amount Ch. 6"/>
+  <Component type="ScriptSlider" id="VVol6" x="472.0" y="520.0" width="42.0"
+             height="20.0" tooltip="Send Amount" text="Send" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" dragDirection="Horizontal" showTextBox="0"
+             scrollWheel="0" enableMidiLearn="0" bgColour="3042181012" itemColour="1619757963"
+             textColour="3870097327" numStrips="128.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             scaleFactor="0.4000000059604645" isPluginParameter="1" pluginParameterName="Send Amount Ch. 7"/>
+  <Component type="ScriptSlider" id="VVol7" x="514.0" y="520.0" width="42.0"
+             height="20.0" tooltip="Send Amount" text="Send" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" dragDirection="Horizontal" showTextBox="0"
+             scrollWheel="0" enableMidiLearn="0" bgColour="3042181012" itemColour="1619757963"
+             textColour="3870097327" numStrips="128.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             scaleFactor="0.4000000059604645" isPluginParameter="1" pluginParameterName="Send Amount Ch. 8"/>
+  <Component type="ScriptSlider" id="VVol8" x="555.0" y="520.0" width="42.0"
+             height="20.0" tooltip="Send Amount" text="Send" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" dragDirection="Horizontal" showTextBox="0"
+             scrollWheel="0" enableMidiLearn="0" bgColour="3042181012" itemColour="1619757963"
+             textColour="3870097327" numStrips="128.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             scaleFactor="0.4000000059604645" isPluginParameter="1" pluginParameterName="Send Amount Ch. 9"/>
+  <Component type="ScriptSlider" id="VVol9" x="597.0" y="520.0" width="42.0"
+             height="20.0" tooltip="Send Amount" text="Send" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" dragDirection="Horizontal" showTextBox="0"
+             scrollWheel="0" enableMidiLearn="0" bgColour="3042181012" itemColour="1619757963"
+             textColour="3870097327" numStrips="128.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_send.png"
+             scaleFactor="0.4000000059604645" isPluginParameter="1" pluginParameterName="Send Amount Ch. 10"/>
+  <Component type="ScriptPanel" id="pnlPerformance" x="675.0" y="0.0" height="26.0"
+             textColour="4294967295" bgColour="16777215" enabled="0" text="CPU: 1.2% | RAM: 27.2MB | Voices: 0"
+             width="242.0" itemColour="0" itemColour2="0" borderSize="0.0"
+             borderRadius="0.0" popupOnRightClick="0" holdIsRightClick="0"/>
+  <Component type="ScriptLabel" id="PerfScreen" x="675.0" y="3.0" fontName="Source Code Pro"
+             fontSize="15.0" text="" editable="0" alignment="right" textColour="4289986470"
+             itemColour="4278848010" width="244.0" bgColour="790788102" itemColour2="1118481"
+             height="21.0"/>
+  <Component type="ScriptButton" id="ResizeButton" x="784.0" y="591.0" width="95.0"
+             height="33.0" numStrips="6.0" scaleFactor="0.5" filmstripImage="{PROJECT_FOLDER}pdl_keyboard.png"/>
+  <Component type="ScriptPanel" id="KeyPanel" x="0" y="624" width="1000" height="76.0"
+             borderSize="0.0" borderRadius="0.0" bgColour="16777215" textColour="16777215"
+             itemColour="0" itemColour2="0" holdIsRightClick="0" popupOnRightClick="0">
+    <Component type="ScriptFloatingTile" id="Keyboard" x="24.0" y="4.0" parentComponent="KeyPanel"
+               width="950.0" height="72.0" ContentType="Keyboard" bgColour="4278190080"
+               itemColour="4294967295" itemColour2="4294967295" Data="{&#10;  &quot;KeyWidth&quot;: 19,&#10;  &quot;DisplayOctaveNumber&quot;: 1,&#10;  &quot;LowKey&quot;: 24,&#10;  &quot;HiKey&quot;: 108,&#10;  &quot;CustomGraphics&quot;: 0,&#10;  &quot;DefaultAppearance&quot;: 0,&#10;  &quot;BlackKeyRatio&quot;: 0.6,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: [&#10;    1,&#10;    2,&#10;    3,&#10;    4,&#10;    5,&#10;    6,&#10;    7,&#10;    8,&#10;    9,&#10;    10,&#10;    11,&#10;    12,&#10;    13,&#10;    14,&#10;    15,&#10;    16&#10;  ],&#10;  &quot;UseVectorGraphics&quot;: 1,&#10;  &quot;UseFlatStyle&quot;: 0,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"
+               itemColour3="8750469" textColour="16777215"/>
+  </Component>
+  <Component type="ScriptButton" id="Mix8" x="640.0" y="-2.0" height="29.0"
+             tooltip="Audio Midi Settings" text="Audio MIDI Settings" width="31.0"
+             enableMidiLearn="0" scaleFactor="0.4000000059604645" numStrips="6.0"
+             textColour="16777215" filmstripImage="{PROJECT_FOLDER}pdl_settings.png"
+             bgColour="4278190080" itemColour="4281545523"/>
+  <Component type="ScriptPanel" id="MixPanel8" x="649.0" y="28.0" width="220.0"
+             height="330.0" opaque="1" itemColour="503316479" itemColour2="4278190080"
+             bgColour="4278390799" borderSize="3.0" borderRadius="0.0" popupOnRightClick="0"
+             holdIsRightClick="0" visible="0">
+    <Component type="ScriptFloatingTile" id="AdvOptions" x="0.0" y="0.0" ContentType="CustomSettings"
+               bgColour="4278190080" itemColour="4278190080" itemColour2="4278190080"
+               Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: true,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#10;  &quot;ClearMidiCC&quot;: true,&#10;  &quot;SampleLocation&quot;: true,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: true,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+               width="220.0" height="330.0" FontSize="10.0" parentComponent="MixPanel8"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel12" x="922.0" y="0.0" borderSize="0.0"
+             borderRadius="0.0" itemColour="0" itemColour2="0" bgColour="16777215"
+             textColour="16777215" width="78.0" height="27.0">
+    <Component type="ScriptButton" id="Mix9" x="-3.0" y="-2.0" width="81.0"
+               height="31.0" scaleFactor="0.4000000059604645" numStrips="6.0"
+               text="About" tooltip="About" filmstripImage="{PROJECT_FOLDER}pdl_about.png"
+               enableMidiLearn="0" parentComponent="Panel12"/>
+  </Component>
+  <Component type="ScriptPanel" id="MixPanel9" x="700.0" y="27.0" borderSize="0.0"
+             borderRadius="0.0" opaque="1" width="300.0" height="142.0" visible="0">
+    <Component type="ScriptFloatingTile" id="FloatingTile1" x="0.0" y="0.0"
+               ContentType="AboutPagePanel" bgColour="4280427042" itemColour="2895006"
+               itemColour2="6883458" Data="{&#10;  &quot;CopyrightNotice&quot;: &quot;Performed by Kyle Peksenak\r \rEngineered, Mixed and Programmed by Zachary Pierce\r&quot;,&#10;  &quot;ShowLicensedEmail&quot;: false,&#10;  &quot;ShowVersion&quot;: true,&#10;  &quot;BuildDate&quot;: true,&#10;  &quot;WebsiteURL&quot;: &quot;zacharypierceonline@gmail.com&quot;,&#10;  &quot;ShowProductName&quot;: false,&#10;  &quot;UseCustomImage&quot;: false&#10;}"
+               FontSize="12.0" width="300.0" height="142.0" itemColour3="5575581"
+               parentComponent="MixPanel9"/>
+  </Component>
+  <Component type="ScriptPanel" id="MixPanel0" x="700.0" y="400.0" popupOnRightClick="0"
+             holdIsRightClick="0" width="160.0" height="150.0" bgColour="0"
+             itemColour="0" itemColour2="0" textColour="0" borderRadius="0.0"
+             borderSize="0.0" visible="0">
+    <Component type="ScriptSlider" id="KickOvh" x="10.0" y="11.0" width="23.0"
+               height="120.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png"
+               numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+               mode="Decibel" min="-32.0" max="12.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="-12.0" parentComponent="MixPanel0"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" processorId="KickOvh"
+               parameterId="Gain" bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="KickRom" x="50.0" y="11.0" parentComponent="MixPanel0"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               processorId="KickRom" parameterId="Gain" suffix="dB" text="Mix"
+               tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="KickBld" x="90.0" y="11.0" parentComponent="MixPanel0"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               processorId="KickBld" parameterId="Gain" suffix="dB" text="Mix"
+               tooltip="Mix" isPluginParameter="1"/>
+  </Component>
+  <Component type="ScriptPanel" id="MixPanel1" x="700.0" y="400.0" popupOnRightClick="0"
+             borderSize="0.0" borderRadius="0.0" width="160.0" height="150.0"
+             bgColour="16777215" textColour="16777215" visible="0">
+    <Component type="ScriptSlider" id="RideOvh" x="10.0" y="11.0" width="23.0"
+               height="120.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png"
+               numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+               mode="Decibel" min="-32.0" max="12.0" stepSize="0.1000000014901161"
+               suffix="dB" middlePosition="-12.0" parentComponent="MixPanel1"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" bgColour="16777215"
+               itemColour="3355443" itemColour2="1118481" textColour="16777215"
+               processorId="RideOvh" parameterId="Gain" text="Mix" tooltip="Mix"
+               isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="RideRom" x="50.0" y="11.0" parentComponent="MixPanel1"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="RideRom" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="RideBld" x="90.0" y="11.0" parentComponent="MixPanel1"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="RideBld" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+  </Component>
+  <Component type="ScriptPanel" id="MixPanel2" x="700.0" y="400.0" popupOnRightClick="0"
+             borderSize="0.0" borderRadius="0.0" width="160.0" height="150.0"
+             bgColour="16777215" textColour="16777215" visible="0">
+    <Component type="ScriptSlider" id="RackOvh" x="10.0" y="11.0" width="23.0"
+               height="120.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png"
+               numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+               mode="Decibel" min="-32.0" max="12.0" stepSize="0.1000000014901161"
+               suffix="dB" middlePosition="-12.0" parentComponent="MixPanel2"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" bgColour="16777215"
+               itemColour="3355443" itemColour2="1118481" textColour="16777215"
+               processorId="RackOvh" parameterId="Gain" text="Mix" tooltip="Mix"
+               isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="RackRom" x="50.0" y="11.0" parentComponent="MixPanel2"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="RackRom" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="RackBld" x="90.0" y="11.0" parentComponent="MixPanel2"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="RackBld" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+  </Component>
+  <Component type="ScriptPanel" id="MixPanel3" x="700.0" y="400.0" popupOnRightClick="0"
+             borderSize="0.0" borderRadius="0.0" width="160.0" height="150.0"
+             bgColour="16777215" textColour="16777215" visible="0">
+    <Component type="ScriptSlider" id="FloorOvh" x="10.0" y="11.0" width="23.0"
+               height="120.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png"
+               numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+               mode="Decibel" min="-32.0" max="12.0" stepSize="0.1000000014901161"
+               suffix="dB" middlePosition="-12.0" parentComponent="MixPanel3"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" bgColour="16777215"
+               itemColour="3355443" itemColour2="1118481" textColour="16777215"
+               processorId="FloorOvh" parameterId="Gain" text="Mix" tooltip="Mix"
+               isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="FloorRom" x="50.0" y="11.0" parentComponent="MixPanel3"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="FloorRom" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="FloorBld" x="90.0" y="11.0" parentComponent="MixPanel3"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="FloorBld" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+  </Component>
+  <Component type="ScriptPanel" id="MixPanel4" x="700.0" y="400.0" popupOnRightClick="0"
+             borderSize="0.0" borderRadius="0.0" width="160.0" height="150.0"
+             bgColour="16777215" textColour="16777215" visible="0">
+    <Component type="ScriptSlider" id="HatsOvh" x="10.0" y="11.0" width="23.0"
+               height="120.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png"
+               numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+               mode="Decibel" min="-32.0" max="12.0" stepSize="0.1000000014901161"
+               suffix="dB" middlePosition="-12.0" parentComponent="MixPanel4"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" bgColour="16777215"
+               itemColour="3355443" itemColour2="1118481" textColour="16777215"
+               processorId="HihatOvh" parameterId="Gain" text="Mix" tooltip="Mix"
+               isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="HatsRom" x="50.0" y="11.0" parentComponent="MixPanel4"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="HihatRom" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="HatsBld" x="90.0" y="11.0" parentComponent="MixPanel4"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="HihatBld" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+  </Component>
+  <Component type="ScriptPanel" id="MixPanel5" x="700.0" y="400.0" popupOnRightClick="0"
+             borderSize="0.0" borderRadius="0.0" width="240.0" height="150.0"
+             bgColour="16777215" textColour="16777215" visible="0">
+    <Component type="ScriptSlider" id="SnarTop" x="10.0" y="11.0" parentComponent="MixPanel5"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="SnareTop" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SnarBot" x="50.0" y="11.0" parentComponent="MixPanel5"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="SnareBot" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SnarOvh" x="90.0" y="11.0" width="23.0"
+               height="120.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png"
+               numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+               mode="Decibel" min="-32.0" max="12.0" stepSize="0.1000000014901161"
+               suffix="dB" middlePosition="-12.0" parentComponent="MixPanel5"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" bgColour="16777215"
+               itemColour="3355443" itemColour2="1118481" textColour="16777215"
+               processorId="SnareOvh" parameterId="Gain" text="Mix" tooltip="Mix"
+               isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SnarRom" x="130.0" y="11.0" parentComponent="MixPanel5"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="SnareRom" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SnarBld" x="170.0" y="11.0" parentComponent="MixPanel5"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="SnareBld" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+  </Component>
+  <Component type="ScriptPanel" id="MixPanel6" x="700.0" y="200.0" popupOnRightClick="0"
+             borderSize="0.0" borderRadius="0.0" width="240.0" height="350.0"
+             bgColour="16777215" textColour="16777215" visible="0">
+    <Component type="ScriptSlider" id="StkL" x="10.0" y="11.0" parentComponent="MixPanel6"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="CdirSkl" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="StkR" x="50.0" y="11.0" parentComponent="MixPanel6"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="CdirSkr" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SplL" x="90.0" y="11.0" width="23.0"
+               height="120.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png"
+               numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+               mode="Decibel" min="-32.0" max="12.0" stepSize="0.1000000014901161"
+               suffix="dB" middlePosition="-12.0" parentComponent="MixPanel6"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" bgColour="16777215"
+               itemColour="3355443" itemColour2="1118481" textColour="16777215"
+               processorId="CdirSpl" parameterId="Gain" text="Mix" tooltip="Mix"
+               isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SplR" x="130.0" y="11.0" parentComponent="MixPanel6"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="CdirSpr" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="Chna" x="10.0" y="186.0" parentComponent="MixPanel6"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="CdirChn" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="Aux1" x="50.0" y="186.0" parentComponent="MixPanel6"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="CdirAx1" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="Aux2" x="90.0" y="186.0" parentComponent="MixPanel6"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="CdirAx2" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="CdirOvh" x="190.0" y="11.0" width="23.0"
+               height="120.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png"
+               numStrips="128.0" scaleFactor="0.5" dragDirection="Vertical"
+               mode="Decibel" min="-32.0" max="12.0" stepSize="0.1000000014901161"
+               suffix="dB" middlePosition="-12.0" parentComponent="MixPanel6"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" bgColour="16777215"
+               itemColour="3355443" itemColour2="1118481" textColour="16777215"
+               processorId="CdirOvh" parameterId="Gain" text="Mix" tooltip="Mix"
+               isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="CdirRom" x="150.0" y="186.0" parentComponent="MixPanel6"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="CdirRom" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="CdirBld" x="190.0" y="186.0" parentComponent="MixPanel6"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="CdirBld" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SklPan" x="8.0" y="149.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="CdirSkl"
+               parameterId="Balance" parentComponent="MixPanel6" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SkrPan" x="45.0" y="149.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="CdirSkr"
+               parameterId="Balance" parentComponent="MixPanel6" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SplPan" x="85.0" y="149.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="CdirSpl"
+               parameterId="Balance" parentComponent="MixPanel6" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="SprPan" x="125.0" y="149.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="CdirSpr"
+               parameterId="Balance" parentComponent="MixPanel6" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="ChnPan" x="8.0" y="323.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="CdirChn"
+               parameterId="Balance" parentComponent="MixPanel6" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="Ax1Pan" x="45.0" y="323.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="CdirAx1"
+               parameterId="Balance" parentComponent="MixPanel6" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="Ax2Pan" x="85.0" y="323.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="CdirAx2"
+               parameterId="Balance" parentComponent="MixPanel6" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+  </Component>
+  <Component type="ScriptPanel" id="MixPanel7" x="700.0" y="200.0" popupOnRightClick="0"
+             borderSize="0.0" borderRadius="0.0" width="160.0" height="350.0"
+             bgColour="16777215" textColour="16777215" visible="0">
+    <Component type="ScriptSlider" id="Clav" x="10.0" y="11.0" parentComponent="MixPanel7"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="PercClv" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="Bong" x="50.0" y="11.0" parentComponent="MixPanel7"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="PercBng" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="Tri" x="90.0" y="11.0" width="23.0" height="120.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" numStrips="128.0"
+               scaleFactor="0.5" dragDirection="Vertical" mode="Decibel" min="-32.0"
+               max="12.0" stepSize="0.1000000014901161" suffix="dB" middlePosition="-12.0"
+               parentComponent="MixPanel7" showTextBox="0" scrollWheel="0" enableMidiLearn="0"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" processorId="PercTri" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="PercOvh" x="10.0" y="186.0" parentComponent="MixPanel7"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="PercOvh" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="PercRom" x="50.0" y="186.0" parentComponent="MixPanel7"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="PercRom" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="PercBld" x="90.0" y="186.0" parentComponent="MixPanel7"
+               width="23.0" height="120.0" min="-32.0" max="12.0" middlePosition="-12.0"
+               filmstripImage="{PROJECT_FOLDER}pdl_fader_short.png" mode="Decibel"
+               stepSize="0.1000000014901161" numStrips="128.0" dragDirection="Vertical"
+               showTextBox="0" scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5"
+               bgColour="16777215" itemColour="3355443" itemColour2="1118481"
+               textColour="16777215" suffix="dB" processorId="PercBld" parameterId="Gain"
+               text="Mix" tooltip="Mix" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="ClavPan" x="8.0" y="149.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="PercClv"
+               parameterId="Balance" parentComponent="MixPanel7" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="BongPan" x="45.0" y="149.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="PercBng"
+               parameterId="Balance" parentComponent="MixPanel7" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+    <Component type="ScriptSlider" id="TriPan" x="85.0" y="149.0" tooltip="Pan"
+               text="Pan" width="34.0" height="25.0" filmstripImage="{PROJECT_FOLDER}pdl_fader_mix.png"
+               numStrips="128.0" mode="Pan" min="-100.0" max="100.0" stepSize="1.0"
+               suffix="L" middlePosition="0.0" dragDirection="Horizontal" processorId="PercTri"
+               parameterId="Balance" parentComponent="MixPanel7" showTextBox="0"
+               scrollWheel="0" enableMidiLearn="0" scaleFactor="0.5" isPluginParameter="1"/>
+  </Component>
+  <Component type="ScriptPanel" id="pnlPreload" x="0.0" y="0.0" visible="0"
+             width="0.0" height="0.0"/>
+  <Component type="ScriptSlider" id="VVol10" x="0.0" y="0.0" text="blank"
+             enabled="0" tooltip="useless" mode="Decibel" min="-100.0" max="0.0"
+             stepSize="0.1000000014901161" suffix=" dB" middlePosition="-18.0"
+             width="0.0" height="0.0" visible="0"/>
+  <Component type="ScriptButton" id="VMute10" x="0.0" y="0.0" text="blank"
+             tooltip="useless" enabled="0" enableMidiLearn="0" width="0.0"
+             height="0.0" visible="0"/>
+  <Component type="ScriptButton" id="ConvSelect" x="626.0" y="355.0" text="Select IR"
+             tooltip="Select IR" numStrips="6.0" width="70.0" height="60.0"
+             scaleFactor="0.25" filmstripImage="{PROJECT_FOLDER}pdl_convolution.png"/>
+  <Component type="ScriptPanel" id="Panel11" x="572.0" y="366.0" width="57.0"
+             height="28.0" bgColour="16777215" textColour="4280031770" itemColour2="1979711488"
+             itemColour="33554432" borderRadius="4.0">
+    <Component type="ScriptLabel" id="ConvLabel" x="0.0" y="0.0" fontName="Source Code Pro"
+               fontSize="15.0" text="Backward" editable="0" alignment="right"
+               textColour="4289986470" itemColour="4282270534" width="57.0"
+               bgColour="790788102" itemColour2="1118481" parentComponent="Panel11"/>
+  </Component>
+  <Component type="ScriptLabel" id="IR" x="548.0" y="366.0" width="26.0" textColour="4289986470"
+             itemColour2="1118481" editable="0" alignment="right" fontName="Source Code Pro"
+             fontSize="15.0" enabled="0"/>
+  <Component type="ScriptImage" id="Channels" x="100.0" y="583.0" fileName="{PROJECT_FOLDER}pdl_channels.png"
+             width="578.0" scale="0.5"/>
+  <Component type="ScriptLabel" id="Label1" x="94.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="KICK" fontSize="23.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label2" x="153.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="SNARE" fontSize="23.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label3" x="215.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="RACK" fontSize="23.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label4" x="278.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="FLOOR" fontSize="23.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label5" x="340.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="HATS" fontSize="23.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label6" x="403.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="RIDE" fontSize="23.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label7" x="462.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="OVH" fontSize="19.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label8" x="503.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="ROOM" fontSize="15.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label9" x="548.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="SPOT" fontSize="15.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label10" x="588.0" y="576.0" editable="0"
+             fontName="Source Code Pro" text="PERC" fontSize="15.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label11" x="635.0" y="569.0" editable="0"
+             fontName="Source Code Pro" text="REVERB" fontSize="15.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label12" x="635.0" y="582.0" editable="0"
+             fontName="Source Code Pro" text="KITCHEN" fontSize="15.0" width="56.0"
+             textColour="3350462374" visible="0"/>
+  <Component type="ScriptLabel" id="Label13" x="137.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+  <Component type="ScriptLabel" id="Label14" x="199.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+  <Component type="ScriptLabel" id="Label15" x="261.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+  <Component type="ScriptLabel" id="Label16" x="321.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+  <Component type="ScriptLabel" id="Label17" x="383.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+  <Component type="ScriptLabel" id="Label18" x="451.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+  <Component type="ScriptLabel" id="Label19" x="497.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+  <Component type="ScriptLabel" id="Label20" x="539.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+  <Component type="ScriptLabel" id="Label21" x="582.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+  <Component type="ScriptLabel" id="Label22" x="620.0" y="560.0" editable="0"
+             fontName="Source Code Pro" text="|" width="30.0" textColour="3350462374"
+             height="64.0" fontSize="42.0" fontStyle="Regular" visible="0"/>
+</ContentProperties>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="pdl_perc" SaveMode="2" FileName="pdl_perc" MicPositions="bleed;bong;clav;overhead;room;tri;"
+           RRGroupAmount="6.0" CrossfadeGamma="1.0">
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="460800" MonolithOffset="0" MonolithLength="462848"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr01_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr01_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr01_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr01_tri.wav"/>
+  </sample>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="460800" MonolithOffset="462848" MonolithLength="462848"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr02_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr02_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr02_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr02_tri.wav"/>
+  </sample>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="460800" MonolithOffset="925696" MonolithLength="462848"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr03_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr03_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr03_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr03_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr03_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr03_tri.wav"/>
+  </sample>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="4"
+          Duplicate="1" SampleEnd="460800" MonolithOffset="1388544" MonolithLength="462848"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr04_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr04_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr04_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr04_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr04_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr04_tri.wav"/>
+  </sample>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="5"
+          Duplicate="1" SampleEnd="460800" MonolithOffset="1851392" MonolithLength="462848"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr05_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr05_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr05_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr05_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr05_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr05_tri.wav"/>
+  </sample>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="6"
+          Duplicate="1" SampleEnd="460800" MonolithOffset="2314240" MonolithLength="462848"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr06_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr06_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr06_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr06_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr06_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_triangle_open_dyn3_A5_rr06_tri.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="2777088" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr01_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr01_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr01_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr01_tri.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="2818048" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr02_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr02_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr02_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr02_tri.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="2859008" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr03_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr03_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr03_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr03_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr03_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr03_tri.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="4"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="2899968" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr04_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr04_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr04_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr04_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr04_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr04_tri.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="5"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="2940928" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr05_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr05_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr05_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr05_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr05_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr05_tri.wav"/>
+  </sample>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="6"
+          Duplicate="1" SampleEnd="38400" MonolithOffset="2981888" MonolithLength="40960"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr06_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr06_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr06_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr06_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr06_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_bongo_dead_dyn3_C4_rr06_tri.wav"/>
+  </sample>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="3022848" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr01_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr01_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr01_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr01_tri.wav"/>
+  </sample>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="3256320" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr02_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr02_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr02_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr02_tri.wav"/>
+  </sample>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="3489792" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr03_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr03_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr03_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr03_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr03_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr03_tri.wav"/>
+  </sample>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="4"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="3723264" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr04_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr04_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr04_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr04_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr04_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr04_tri.wav"/>
+  </sample>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="5"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="3956736" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr05_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr05_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr05_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr05_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr05_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr05_tri.wav"/>
+  </sample>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="6"
+          Duplicate="1" SampleEnd="230400" MonolithOffset="4190208" MonolithLength="233472"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr06_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr06_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr06_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr06_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr06_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_long_dyn3_D#5_rr06_tri.wav"/>
+  </sample>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" SampleEnd="9600" MonolithOffset="4423680" MonolithLength="12288"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr01_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr01_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr01_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr01_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr01_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr01_tri.wav"/>
+  </sample>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" SampleEnd="9600" MonolithOffset="4435968" MonolithLength="12288"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr02_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr02_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr02_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr02_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr02_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr02_tri.wav"/>
+  </sample>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" SampleEnd="9600" MonolithOffset="4448256" MonolithLength="12288"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr03_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr03_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr03_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr03_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr03_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr03_tri.wav"/>
+  </sample>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="4"
+          Duplicate="1" SampleEnd="9600" MonolithOffset="4460544" MonolithLength="12288"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr04_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr04_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr04_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr04_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr04_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr04_tri.wav"/>
+  </sample>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="5"
+          Duplicate="1" SampleEnd="9600" MonolithOffset="4472832" MonolithLength="12288"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr05_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr05_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr05_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr05_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr05_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr05_tri.wav"/>
+  </sample>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="6"
+          Duplicate="1" SampleEnd="9600" MonolithOffset="4485120" MonolithLength="12288"
+          SampleRate="48000.0">
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr06_bleed.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr06_bong.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr06_clav.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr06_overhead.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr06_room.wav"/>
+    <file FileName="{PROJECT_FOLDER}pdl_clave_short_dyn3_D5_rr06_tri.wav"/>
+  </sample>
+</samplemap>
