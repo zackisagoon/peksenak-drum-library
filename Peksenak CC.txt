@@ -1,0 +1,38 @@
+# MIDI note/CC name map
+81 Triangle
+75 Claves Long
+74 Claves Short
+63 Aux Cymbal 2
+62 Aux Cymbal 1
+60 Bongo Hit
+59 Stack R
+58 Stack L
+57 Crash R
+56 Splash R
+55 Splash L
+53 Ride Bell
+52 China
+51 Ride Wash
+49 Crash L
+48 Tight Open Hihat
+47 Loose Open Hihat
+46 Open Hihat
+45 Rack Tom
+44 Pedal Hihat
+43 Floor Tom
+42 Closed Hihat
+41 Hihat Choke
+40 Snare Roll
+39 Snare Flam
+38 Snare
+37 Side Stick
+36 Kick
+33 Crash L and Crash R
+32 Aux 1 and Crash R
+31 Aux 1 and Crash L
+30 China and Crash R
+28 Swell Crash R
+27 Swell Crash L
+26 Swell Ride
+25 Swell Aux 1
+24 Swell China
