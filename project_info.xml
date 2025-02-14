@@ -2,12 +2,12 @@
 
 <ProjectSettings>
   <Name value="Peksenak Drum Library"/>
-  <Version value="1.0.0"/>
+  <Version value="1.0.1"/>
   <Description value=""/>
   <BundleIdentifier value="com.myCompany.product"/>
   <PluginCode value="Abcd"/>
-  <EmbedAudioFiles value="0"/>
-  <EmbedImageFiles value="0"/>
+  <EmbedAudioFiles value="1"/>
+  <EmbedImageFiles value="1"/>
   <SupportFullDynamicsHLAC value="1"/>
   <AdditionalDspLibraries value=""/>
   <OSXStaticLibs value=""/>

@@ -1,30 +1,31 @@
 [Setup]
 AppName=Peksenak Drum Library
-AppVersion=1.0.0
+AppVersion=1.0.1
 DefaultGroupName=Zachary Pierce
-DefaultDirName={userappdata}\Zachary Pierce\Peksenak Drum Library
+DefaultDirName="{userappdata}\Zachary Pierce\Peksenak Drum Library"
+DisableDirPage=yes
 UsePreviousAppDir=yes
-OutputDir=.\installerBuild
+OutputDir=".\installerBuild"
 PrivilegesRequired=admin
-OutputBaseFilename=PeksenakDL Installer 1.0.0
+OutputBaseFilename=PeksenakDL Installer 1.0.1
 Uninstallable=yes
 CreateUninstallRegKey=yes
-UninstallFilesDir={userappdata}\Zachary Pierce\Peksenak Drum Library
-LicenseFile=.\installerAssets\EULA.txt
-SetupIconFile=.\installerAssets\zpicon.ico
-WizardSmallImageFile=.\installerAssets\Logo147x147.bmp
-WizardImageFile=.\installerAssets\Logo240x459.bmp
+ArchitecturesAllowed=x64compatible
+ArchitecturesInstallIn64BitMode=x64compatible
+UninstallFilesDir="{userappdata}\Zachary Pierce\Peksenak Drum Library"
+LicenseFile=".\installerAssets\EULA.txt"
+SetupIconFile=".\installerAssets\zpicon.ico"
+WizardSmallImageFile=".\installerAssets\Logo147x147.bmp"
+WizardImageFile=".\installerAssets\Logo240x459.bmp"
 
 [Files]
 Source: ".\installerAssets\Peksenak Drum Libarary_manual.pdf"; DestDir: "{commoncf}\VST3\Zachary Pierce\Peksenak Drum Library"; Flags: ignoreversion
-Source: ".\PooledResources\ImageResources.dat"; DestDir: "{userappdata}\Zachary Pierce\Peksenak Drum Library"; Flags: ignoreversion
-Source: ".\PooledResources\AudioResources.dat"; DestDir: "{userappdata}\Zachary Pierce\Peksenak Drum Library"; Flags: ignoreversion
 Source: ".\Binaries\Compiled\VST3\Peksenak Drum Library.vst3"; DestDir: "{commoncf}\VST3\Zachary Pierce\Peksenak Drum Library"; Flags: ignoreversion
 Source: ".\Samples\*"; Excludes: "Raw"; DestDir: "{commoncf}\VST3\Zachary Pierce\Peksenak Drum Library\Peksenak Drum Library Samples"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\User guide"; Filename: "{userappdata}\Zachary Pierce\Peksenak Drum Library\Peksenak Drum Libarary_manual.pdf"
-Name: "{group}\Uninstall Peksenak_DL"; Filename: "{userappdata}\Zachary Pierce\Peksenak Drum Library\unins000.exe"
+Name: "{group}\Uninstall"; Filename: "{userappdata}\Zachary Pierce\Peksenak Drum Library\unins000.exe"
 
 [Code]
 procedure CurStepChanged(CurStep: TSetupStep);
